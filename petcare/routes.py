@@ -191,42 +191,8 @@ def consult_veterinarian_page():
 @login_required
 def analyze_pet_health_page(pet_id):
     # Fetch all users and get their pets
-    all_pets = []
-    for user in mongo.db.users.find():  # Iterate through all users
-        all_pets.extend(user.get('pets', []))  # Add each pet from the user's pets list
-    selected_pet = next((pet for pet in all_pets if str(pet['_id']) == str(pet_id)), None)
 
-    if request.method == 'POST':
-        user_id = session["_id"]
-        pet_id = request.form.get("pet_id")
-
-        input_data = {
-            "Age": float(request.form.get("age")),
-            "Weight (kg)": float(request.form.get("weight")),
-            "Symptoms": request.form.getlist("general_symptoms"),
-            "Previous Health Issues": request.form.get("prev_issues", ""),
-            "Hydration (%)": float(request.form.get("hydration", 50)),
-            "Heart Rate (bpm)": float(request.form.get("heart_rate", 0)),
-            "Respiratory Rate (bpm)": float(request.form.get("respiratory_rate", 0)),
-            "Temperature (°C)": float(request.form.get("temperature")),
-            "Environmental Exposure": request.form.get("environmental_exposure", "Indoor")
-        }
-
-        prediction = predict_health_risk(input_data)
-        report = {
-            "date": pd.Timestamp.now(),
-            "input_data": input_data,
-            "prediction": prediction
-        }
-
-        mongo.db.users.update_one(
-            {"_id": ObjectId(user_id), "pets._id": ObjectId(pet_id)},
-            {"$push": {"pets.$.health_reports": report}}
-        )
-
-        return jsonify(prediction)
-
-    return render_template('analyze_pet_health.html', selected_pet=selected_pet)
+    return render_template('analyze_pet_health.html')
 
 @app.route('/select_pet')
 @login_required
