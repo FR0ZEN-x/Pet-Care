@@ -66,7 +66,62 @@
                     <div id="vitalSignsWarnings" class="mt-2"></div>
                 </div>
 
-                <div class="health-condition mb-3">
+                <!-- Additional Health Metrics -->
+                    <div class="mb-3">
+                        <h4>Additional Health Metrics</h4>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label for="diet_type" class="form-label">Diet Type</label>
+                                <select class="form-select" id="diet_type" required>
+                                    <option value="Premium Commercial">Premium Commercial</option>
+                                    <option value="Basic Commercial">Basic Commercial</option>
+                                    <option value="Home-Prepared">Home-Prepared</option>
+                                    <option value="Raw Diet">Raw Diet</option>
+                                    <option value="Prescription">Prescription</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="activity_level" class="form-label">Activity Level</label>
+                                <select class="form-select" id="activity_level" required>
+                                    <option value="Very Active">Very Active</option>
+                                    <option value="Active">Active</option>
+                                    <option value="Moderate">Moderate</option>
+                                    <option value="Sedentary">Sedentary</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label for="living_environment" class="form-label">Living Environment</label>
+                                <select class="form-select" id="living_environment" required>
+                                    <option value="Indoor Only">Indoor Only</option>
+                                    <option value="Outdoor Only">Outdoor Only</option>
+                                    <option value="Mixed">Mixed</option>
+                                    <option value="Controlled Environment">Controlled Environment</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="vaccination_status" class="form-label">Vaccination Status</label>
+                                <select class="form-select" id="vaccination_status" required>
+                                    <option value="Up to Date">Up to Date</option>
+                                    <option value="Partially Vaccinated">Partially Vaccinated</option>
+                                    <option value="Overdue">Overdue</option>
+                                    <option value="Not Vaccinated">Not Vaccinated</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="hydration" class="form-label">Hydration Status</label>
+                                <select class="form-select" id="hydration" required>
+                                    <option value="Normal">Normal</option>
+                                    <option value="Mild Dehydration">Mild Dehydration</option>
+                                    <option value="Moderate Dehydration">Moderate Dehydration</option>
+                                    <option value="Severe Dehydration">Severe Dehydration</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                                <div class="health-condition mb-3">
                     <h4>Symptoms</h4>
                     <p>Hold ctrl/cmd to select multiple options.</p>
                     <div class="row">

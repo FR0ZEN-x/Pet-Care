@@ -3,9 +3,6 @@ from flask import render_template, redirect, url_for, flash, request, jsonify, s
 from petcare.forms import EditUsername, EditEmail, EditPassword, RegistrationForm, AddPet, LoginForm, AddVet, VetRegistrationForm, VetLoginForm
 from flask_login import login_user, logout_user, login_required, current_user
 from petcare.models import User, VetLicense, ObjectId
-from datetime import datetime
-import pandas as pd
-from models.predict import predict_health_risk
 
 @app.route('/')
 @app.route('/home')
@@ -191,8 +188,12 @@ def consult_veterinarian_page():
 @login_required
 def analyze_pet_health_page(pet_id):
     # Fetch all users and get their pets
+    all_pets = []
+    for user in mongo.db.users.find():  # Iterate through all users
+        all_pets.extend(user.get('pets', []))  # Add each pet from the user's pets list
+    selected_pet = next((pet for pet in all_pets if str(pet['_id']) == str(pet_id)), None)
 
-    return render_template('analyze_pet_health.html')
+    return render_template('analyze_pet_health.html', selected_pet=selected_pet)
 
 @app.route('/select_pet')
 @login_required
