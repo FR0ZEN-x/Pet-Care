@@ -1,0 +1,1001 @@
+ID,Age,Weight (kg),Breed,Symptoms,Previous Health Issues,Hydration (%),Heart Rate (bpm),Respiratory Rate (bpm),Temperature (°C),Environmental Exposure,Health Risk (%),Health Risk Level,Diagnosis,Potential Causes,Recommended Diet,Consult Vet
+1,12,4.6,British Shorthair,"Lethargy, Loss of Appetite, Sneezing",Arthritis,51,213,24,38.6,Both,79,High,Kidney Failure,"Genetic, Dehydration",Renal Support Diet,Yes
+2,8,4.3,Scottish Fold,None,None,74,163,20,40.0,Indoor,69,High,Heart Disease,"Genetic, Poor Diet","Wet food, Hydration",Yes
+3,11,4.6,Bengal,None,Arthritis,57,204,29,39.6,Both,100,Severe,Healthy,N/A,Low-sodium Diet,Yes
+4,11,5.3,Maine Coon,"None, Difficulty Breathing",Diabetes,48,154,38,38.5,Outdoor,15,Low,Healthy,N/A,Low-sodium Diet,No
+5,13,6.2,Bengal,Weight Loss,None,59,188,36,39.3,Indoor,11,Low,Healthy,N/A,Low-sodium Diet,No
+6,6,5.1,Bengal,Loss of Appetite,Obesity,75,163,40,39.2,Both,10,Low,Healthy,N/A,Low-sodium Diet,No
+7,12,3.2,Sphynx,Vomiting,None,48,204,25,38.7,Both,11,Low,Healthy,N/A,Balanced Diet,No
+8,6,4.7,Siamese,None,Arthritis,67,156,24,39.6,Indoor,1,Low,Healthy,N/A,Balanced Diet,No
+9,4,4.3,Persian,"Vomiting, Lethargy",Obesity,66,164,21,38.7,Indoor,100,Severe,Healthy,N/A,Diabetic-friendly Diet,Yes
+10,3,3.0,Persian,None,Diabetes,55,168,30,37.6,Both,96,Severe,Obesity,N/A,Diabetic-friendly Diet,Yes
+11,12,4.8,Bengal,"Vomiting, Lethargy, Weight Loss",None,56,182,34,39.9,Indoor,8,Low,Healthy,N/A,High-protein Diet,No
+12,11,5.1,Siamese,"Weight Loss, None",None,55,190,37,39.3,Outdoor,18,Low,Healthy,N/A,Renal Support Diet,No
+13,9,3.8,Ragdoll,Sneezing,Diabetes,63,176,35,37.6,Outdoor,64,High,Heart Disease,"Dust, N/A",Balanced Diet,Yes
+14,5,6.2,Maine Coon,"Coughing, Difficulty Breathing",Kidney Disease,57,141,30,39.8,Indoor,33,Moderate,Heart Disease,Dehydration,Low-sodium Diet,No
+15,13,4.5,British Shorthair,Lethargy,Obesity,71,176,26,39.2,Indoor,54,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+16,12,3.2,Maine Coon,"Lethargy, None, Weight Loss",Heart Condition,70,216,22,37.6,Indoor,45,Moderate,Kidney Failure,Dust,Renal Support Diet,No
+17,6,6.8,Bengal,Weight Loss,Obesity,52,187,30,38.0,Both,55,High,Diabetes,N/A,Balanced Diet,Yes
+18,14,3.5,British Shorthair,"Loss of Appetite, Vomiting, Sneezing",Diabetes,56,145,33,39.2,Outdoor,3,Low,Healthy,N/A,Balanced Diet,No
+19,12,3.7,Bengal,"Weight Loss, Difficulty Breathing, None",Heart Condition,66,188,34,38.9,Indoor,52,High,Heart Disease,"Poor Diet, Stress","Wet food, Hydration",Yes
+20,3,4.4,Maine Coon,"None, Difficulty Breathing",Heart Condition,51,162,23,38.6,Indoor,75,High,Obesity,Genetic,Low-sodium Diet,Yes
+21,10,5.1,Sphynx,Difficulty Breathing,Diabetes,74,210,35,39.6,Indoor,75,High,Respiratory Infection,"Stress, Allergies",Diabetic-friendly Diet,Yes
+22,12,3.5,Maine Coon,None,Heart Condition,56,145,25,38.1,Indoor,19,Low,Healthy,N/A,High-protein Diet,No
+23,5,4.5,Ragdoll,None,Obesity,66,171,33,37.8,Both,85,Severe,Obesity,Stress,Diabetic-friendly Diet,Yes
+24,10,4.8,Sphynx,"Vomiting, Difficulty Breathing",None,47,209,26,39.3,Outdoor,62,High,Diabetes,Stress,"Wet food, Hydration",Yes
+25,7,3.8,Persian,Loss of Appetite,Kidney Disease,45,181,21,37.6,Both,66,High,Gastrointestinal Issue,Stress,High-protein Diet,Yes
+26,1,4.8,Scottish Fold,"Coughing, Vomiting",Obesity,53,159,27,38.2,Outdoor,65,High,Obesity,"Dust, Stress",Renal Support Diet,Yes
+27,13,3.7,British Shorthair,None,Obesity,46,181,24,39.3,Indoor,15,Low,Healthy,N/A,Balanced Diet,No
+28,10,2.6,Bengal,Coughing,None,61,178,33,38.5,Indoor,55,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+29,11,5.0,Ragdoll,"Weight Loss, Loss of Appetite",Kidney Disease,50,169,21,38.5,Both,95,Severe,Heart Disease,"Dust, N/A",Balanced Diet,Yes
+30,9,6.1,British Shorthair,"Lethargy, Coughing, Loss of Appetite",Diabetes,70,144,37,37.8,Both,6,Low,Healthy,N/A,High-protein Diet,No
+31,10,2.6,Ragdoll,Sneezing,Heart Condition,60,213,28,39.0,Both,74,High,Gastrointestinal Issue,"Genetic, Poor Diet",Renal Support Diet,Yes
+32,1,3.4,Persian,"Difficulty Breathing, Lethargy",Obesity,59,164,24,39.8,Outdoor,3,Low,Healthy,N/A,Diabetic-friendly Diet,No
+33,8,2.7,Siamese,Weight Loss,None,53,159,23,39.5,Both,58,High,Respiratory Infection,"Stress, Dust",Diabetic-friendly Diet,Yes
+34,7,5.0,Persian,"Sneezing, Vomiting",Kidney Disease,52,181,23,38.3,Outdoor,87,Severe,Diabetes,"Age-related, Poor Diet",Diabetic-friendly Diet,Yes
+35,3,5.7,Persian,"Lethargy, None",None,58,171,23,39.1,Outdoor,61,High,Kidney Failure,"Dehydration, N/A",Diabetic-friendly Diet,Yes
+36,2,6.5,British Shorthair,"Vomiting, Weight Loss, Sneezing",None,61,191,25,38.1,Outdoor,43,Moderate,Diabetes,Allergies,"Wet food, Hydration",No
+37,8,4.4,Ragdoll,None,Arthritis,71,210,36,37.5,Both,85,Severe,Diabetes,"Poor Diet, Genetic",Low-sodium Diet,Yes
+38,5,2.7,Ragdoll,"Weight Loss, Lethargy, Loss of Appetite",Kidney Disease,66,168,26,39.0,Both,50,Moderate,Respiratory Infection,N/A,Low-sodium Diet,No
+39,14,3.2,Siamese,Lethargy,Obesity,56,170,34,39.6,Indoor,43,Moderate,Diabetes,"Stress, Allergies","Wet food, Hydration",No
+40,15,2.6,Persian,Sneezing,Diabetes,52,201,34,39.2,Both,58,High,Diabetes,Poor Diet,Renal Support Diet,Yes
+41,8,6.1,Scottish Fold,"Coughing, Loss of Appetite",Diabetes,64,154,33,38.7,Outdoor,33,Moderate,Respiratory Infection,Genetic,Diabetic-friendly Diet,No
+42,6,4.0,Bengal,"Lethargy, None, Vomiting",Arthritis,45,206,22,39.3,Both,44,Moderate,Kidney Failure,Genetic,High-protein Diet,No
+43,11,3.1,Scottish Fold,Loss of Appetite,Diabetes,74,157,21,38.4,Outdoor,67,High,Kidney Failure,Genetic,Low-sodium Diet,Yes
+44,4,6.0,Sphynx,None,Obesity,67,168,29,38.1,Indoor,83,Severe,Gastrointestinal Issue,"Allergies, Stress","Wet food, Hydration",Yes
+45,9,2.7,Persian,None,Arthritis,56,213,29,38.9,Indoor,83,Severe,Respiratory Infection,N/A,Balanced Diet,Yes
+46,15,4.0,Sphynx,Coughing,Kidney Disease,45,182,21,39.4,Both,100,Severe,Healthy,N/A,High-protein Diet,Yes
+47,5,3.9,Persian,None,Obesity,62,165,38,39.9,Indoor,2,Low,Healthy,N/A,"Wet food, Hydration",No
+48,2,3.2,Persian,Loss of Appetite,None,62,219,27,39.5,Both,27,Moderate,Healthy,N/A,Diabetic-friendly Diet,No
+49,12,2.9,British Shorthair,"Loss of Appetite, Sneezing, Coughing",Diabetes,61,177,31,39.9,Both,46,Moderate,Gastrointestinal Issue,"Stress, Age-related","Wet food, Hydration",No
+50,6,2.8,Ragdoll,Sneezing,Arthritis,49,153,20,37.8,Both,83,Severe,Gastrointestinal Issue,"Genetic, Age-related",Renal Support Diet,Yes
+51,9,6.3,Persian,Weight Loss,Arthritis,50,152,28,37.6,Both,30,Moderate,Respiratory Infection,"Stress, Genetic",Renal Support Diet,No
+52,10,2.9,Sphynx,"Lethargy, Loss of Appetite",Diabetes,75,191,32,37.9,Both,76,High,Diabetes,Age-related,Balanced Diet,Yes
+53,11,3.9,Maine Coon,Difficulty Breathing,Diabetes,65,197,32,38.3,Both,48,Moderate,Gastrointestinal Issue,Dehydration,Balanced Diet,No
+54,5,7.0,Scottish Fold,"Weight Loss, Vomiting",Obesity,71,168,27,38.2,Indoor,76,High,Respiratory Infection,Age-related,"Wet food, Hydration",Yes
+55,11,4.3,Sphynx,Coughing,Arthritis,54,162,34,39.3,Indoor,72,High,Obesity,"N/A, Stress",Low-sodium Diet,Yes
+56,13,3.7,Maine Coon,None,None,64,188,26,38.3,Indoor,32,Moderate,Gastrointestinal Issue,"Poor Diet, Dehydration",Renal Support Diet,No
+57,9,6.6,British Shorthair,"Vomiting, Sneezing",Heart Condition,46,188,25,37.9,Indoor,34,Moderate,Diabetes,N/A,"Wet food, Hydration",No
+58,15,4.6,Siamese,Coughing,None,74,186,36,39.6,Outdoor,83,Severe,Healthy,N/A,Renal Support Diet,Yes
+59,5,2.6,Siamese,Loss of Appetite,Kidney Disease,62,151,33,39.4,Both,88,Severe,Healthy,N/A,Low-sodium Diet,Yes
+60,4,2.9,Scottish Fold,Difficulty Breathing,Kidney Disease,65,199,30,37.5,Both,24,Moderate,Respiratory Infection,Dehydration,Renal Support Diet,No
+61,3,4.7,Siamese,"Difficulty Breathing, Lethargy",Heart Condition,64,166,28,37.7,Outdoor,78,High,Gastrointestinal Issue,N/A,Balanced Diet,Yes
+62,14,5.8,Persian,Sneezing,Diabetes,57,167,20,38.5,Indoor,34,Moderate,Gastrointestinal Issue,"Stress, Dehydration",Diabetic-friendly Diet,No
+63,12,5.8,British Shorthair,None,Heart Condition,52,156,20,37.9,Outdoor,52,High,Healthy,N/A,Balanced Diet,Yes
+64,7,3.4,Siamese,"Coughing, Loss of Appetite",Arthritis,69,220,26,37.6,Both,14,Low,Healthy,N/A,High-protein Diet,No
+65,12,3.3,Siamese,None,Kidney Disease,56,166,39,38.3,Both,20,Low,Healthy,N/A,Low-sodium Diet,No
+66,14,6.5,Sphynx,"Weight Loss, Sneezing, Difficulty Breathing",Obesity,72,180,38,38.6,Indoor,55,High,Kidney Failure,"Allergies, Genetic",Diabetic-friendly Diet,Yes
+67,2,3.3,Scottish Fold,None,Arthritis,45,210,29,39.8,Outdoor,51,High,Obesity,"Stress, N/A",High-protein Diet,Yes
+68,13,4.1,Scottish Fold,None,Kidney Disease,65,182,23,38.5,Indoor,71,High,Diabetes,Poor Diet,Renal Support Diet,Yes
+69,2,6.4,Maine Coon,Vomiting,Arthritis,65,177,34,37.6,Both,40,Moderate,Obesity,Dust,"Wet food, Hydration",No
+70,1,5.7,Scottish Fold,"Loss of Appetite, Vomiting, Weight Loss",Obesity,61,201,32,39.9,Indoor,94,Severe,Respiratory Infection,Poor Diet,Balanced Diet,Yes
+71,15,2.5,Ragdoll,"Loss of Appetite, Vomiting",Diabetes,59,177,21,38.4,Outdoor,71,High,Kidney Failure,Allergies,Low-sodium Diet,Yes
+72,12,4.4,Scottish Fold,"Lethargy, Loss of Appetite, Difficulty Breathing",Arthritis,45,158,39,38.1,Indoor,92,Severe,Heart Disease,"Allergies, Dehydration","Wet food, Hydration",Yes
+73,1,5.1,Maine Coon,Weight Loss,Obesity,45,169,31,38.9,Indoor,55,High,Kidney Failure,"Poor Diet, Allergies","Wet food, Hydration",Yes
+74,14,3.1,Sphynx,Weight Loss,Diabetes,69,215,37,39.3,Both,28,Moderate,Diabetes,"Allergies, Genetic",Low-sodium Diet,No
+75,6,5.0,Siamese,None,Heart Condition,69,217,36,38.8,Both,41,Moderate,Respiratory Infection,Genetic,Low-sodium Diet,No
+76,8,3.1,Ragdoll,"Sneezing, Lethargy, Difficulty Breathing",None,72,140,27,39.8,Both,86,Severe,Diabetes,"Stress, Genetic",Diabetic-friendly Diet,Yes
+77,6,3.5,Sphynx,Sneezing,Arthritis,49,156,38,38.8,Both,46,Moderate,Diabetes,"N/A, Genetic",Balanced Diet,No
+78,14,4.1,Maine Coon,None,Diabetes,61,214,28,39.5,Indoor,3,Low,Healthy,N/A,High-protein Diet,No
+79,14,6.5,Siamese,None,Diabetes,50,194,27,39.1,Both,70,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+80,10,4.9,British Shorthair,None,Heart Condition,71,187,36,38.7,Outdoor,54,High,Kidney Failure,"N/A, Genetic",Renal Support Diet,Yes
+81,5,5.6,British Shorthair,Loss of Appetite,Heart Condition,68,144,27,39.4,Both,89,Severe,Kidney Failure,N/A,Diabetic-friendly Diet,Yes
+82,7,6.5,Maine Coon,"Lethargy, None",Arthritis,50,159,21,38.3,Indoor,59,High,Diabetes,Dehydration,Balanced Diet,Yes
+83,5,6.8,Scottish Fold,None,Obesity,53,211,25,39.5,Indoor,96,Severe,Respiratory Infection,"Genetic, Allergies","Wet food, Hydration",Yes
+84,2,4.1,Sphynx,None,Heart Condition,47,198,30,38.3,Outdoor,86,Severe,Healthy,N/A,"Wet food, Hydration",Yes
+85,10,6.8,British Shorthair,"None, Lethargy",Kidney Disease,60,197,33,39.4,Both,20,Low,Healthy,N/A,Diabetic-friendly Diet,No
+86,7,2.8,Sphynx,Difficulty Breathing,Diabetes,69,172,24,38.6,Outdoor,32,Moderate,Respiratory Infection,Dust,Balanced Diet,No
+87,7,2.6,British Shorthair,Loss of Appetite,Diabetes,57,212,27,39.2,Indoor,39,Moderate,Obesity,"Genetic, Dehydration",Balanced Diet,No
+88,6,5.7,Siamese,None,Obesity,47,189,23,38.1,Both,2,Low,Healthy,N/A,Low-sodium Diet,No
+89,2,6.2,Siamese,"Vomiting, Weight Loss, Difficulty Breathing",Kidney Disease,69,146,40,38.8,Both,33,Moderate,Diabetes,"Allergies, Stress","Wet food, Hydration",No
+90,14,4.8,Ragdoll,"Weight Loss, Coughing",Kidney Disease,53,179,25,38.0,Both,1,Low,Healthy,N/A,Low-sodium Diet,No
+91,10,3.3,Scottish Fold,"Sneezing, Difficulty Breathing",Obesity,57,188,25,38.0,Outdoor,87,Severe,Heart Disease,Poor Diet,Low-sodium Diet,Yes
+92,5,6.5,Maine Coon,"Difficulty Breathing, Sneezing, Coughing",Heart Condition,49,177,26,38.0,Both,47,Moderate,Diabetes,"Genetic, N/A",Renal Support Diet,No
+93,15,3.9,Maine Coon,"Difficulty Breathing, Loss of Appetite",Kidney Disease,75,210,36,38.6,Outdoor,95,Severe,Kidney Failure,"Age-related, Dehydration",Diabetic-friendly Diet,Yes
+94,9,3.3,Bengal,None,Diabetes,49,208,36,38.2,Outdoor,22,Moderate,Obesity,Dehydration,High-protein Diet,No
+95,8,5.0,Bengal,None,Diabetes,54,199,39,38.5,Both,98,Severe,Heart Disease,Dehydration,Diabetic-friendly Diet,Yes
+96,12,6.1,Maine Coon,"Vomiting, Sneezing, Coughing",Obesity,61,153,26,38.9,Both,98,Severe,Diabetes,"Allergies, Poor Diet",Renal Support Diet,Yes
+97,4,4.0,Scottish Fold,"Lethargy, Coughing",Arthritis,62,163,31,39.5,Both,45,Moderate,Heart Disease,"Poor Diet, Dust",Low-sodium Diet,No
+98,12,5.3,Maine Coon,"Lethargy, Loss of Appetite",Diabetes,55,199,37,39.5,Indoor,51,High,Diabetes,"Genetic, Dust",High-protein Diet,Yes
+99,12,5.0,Scottish Fold,"Loss of Appetite, Sneezing",Arthritis,51,183,26,39.3,Both,58,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+100,12,5.5,Persian,"Vomiting, None",Heart Condition,63,161,22,38.1,Both,21,Moderate,Obesity,"Age-related, N/A","Wet food, Hydration",No
+101,6,5.1,Sphynx,None,Arthritis,51,211,23,38.2,Outdoor,53,High,Kidney Failure,"Genetic, Dehydration",Low-sodium Diet,Yes
+102,13,4.7,Ragdoll,None,Diabetes,75,182,20,37.6,Both,29,Moderate,Gastrointestinal Issue,N/A,Low-sodium Diet,No
+103,9,3.4,Siamese,None,Kidney Disease,49,204,35,39.8,Both,97,Severe,Heart Disease,"Genetic, Age-related","Wet food, Hydration",Yes
+104,13,5.7,Persian,"Weight Loss, Loss of Appetite",Obesity,50,148,27,37.7,Indoor,59,High,Heart Disease,Dehydration,Low-sodium Diet,Yes
+105,15,3.4,British Shorthair,"Sneezing, Difficulty Breathing, Weight Loss",Arthritis,45,209,38,38.7,Indoor,65,High,Heart Disease,Allergies,Renal Support Diet,Yes
+106,12,4.0,Siamese,"Difficulty Breathing, Weight Loss",Diabetes,72,146,23,37.6,Outdoor,24,Moderate,Obesity,"Dehydration, N/A","Wet food, Hydration",No
+107,1,4.7,Maine Coon,"Difficulty Breathing, Lethargy, Coughing",Kidney Disease,62,214,36,38.8,Both,87,Severe,Gastrointestinal Issue,"Age-related, Dehydration","Wet food, Hydration",Yes
+108,1,5.4,Persian,Loss of Appetite,Heart Condition,52,151,20,39.4,Outdoor,7,Low,Healthy,N/A,"Wet food, Hydration",No
+109,13,5.0,Persian,"Difficulty Breathing, Vomiting",Kidney Disease,49,203,29,38.9,Both,49,Moderate,Heart Disease,Dust,"Wet food, Hydration",No
+110,5,5.0,Bengal,"Loss of Appetite, None",Obesity,70,140,31,38.9,Outdoor,8,Low,Healthy,N/A,Diabetic-friendly Diet,No
+111,8,2.6,Siamese,"None, Vomiting, Weight Loss",Kidney Disease,59,183,29,38.7,Outdoor,75,High,Obesity,N/A,Diabetic-friendly Diet,Yes
+112,12,5.2,Persian,"Weight Loss, Vomiting",Heart Condition,67,208,33,39.9,Indoor,65,High,Obesity,Dehydration,Low-sodium Diet,Yes
+113,1,6.3,Bengal,"Sneezing, Vomiting",Kidney Disease,53,169,28,38.5,Outdoor,34,Moderate,Obesity,Allergies,Low-sodium Diet,No
+114,5,2.9,Maine Coon,None,None,55,203,20,38.6,Indoor,68,High,Gastrointestinal Issue,Genetic,Low-sodium Diet,Yes
+115,7,4.7,Bengal,"Difficulty Breathing, Vomiting",Heart Condition,71,213,22,38.9,Indoor,88,Severe,Heart Disease,"Dust, Poor Diet","Wet food, Hydration",Yes
+116,10,5.5,Maine Coon,"Vomiting, None, Coughing",Diabetes,46,164,39,39.4,Indoor,92,Severe,Healthy,N/A,Low-sodium Diet,Yes
+117,11,4.3,Ragdoll,None,Obesity,66,192,20,38.5,Outdoor,60,High,Obesity,"Poor Diet, Allergies",Renal Support Diet,Yes
+118,9,3.5,Scottish Fold,"Difficulty Breathing, Lethargy",Kidney Disease,48,207,29,39.7,Indoor,57,High,Healthy,N/A,Balanced Diet,Yes
+119,15,3.0,Scottish Fold,"Vomiting, Loss of Appetite",Heart Condition,67,161,26,37.5,Outdoor,81,Severe,Respiratory Infection,"Poor Diet, Age-related","Wet food, Hydration",Yes
+120,15,5.4,Scottish Fold,None,Obesity,72,196,34,39.5,Both,91,Severe,Heart Disease,Genetic,Renal Support Diet,Yes
+121,2,4.7,Bengal,None,Arthritis,61,214,33,38.5,Outdoor,66,High,Obesity,"Allergies, Stress",Low-sodium Diet,Yes
+122,11,2.6,Bengal,"Coughing, None, Loss of Appetite",Diabetes,75,185,24,39.7,Both,55,High,Healthy,N/A,Balanced Diet,Yes
+123,5,2.7,Sphynx,"None, Loss of Appetite, Lethargy",Heart Condition,48,184,32,39.9,Outdoor,51,High,Diabetes,Dust,Diabetic-friendly Diet,Yes
+124,3,6.7,Persian,None,Kidney Disease,50,169,27,39.0,Indoor,64,High,Gastrointestinal Issue,Stress,Renal Support Diet,Yes
+125,3,4.3,British Shorthair,"Weight Loss, Difficulty Breathing, None",None,45,182,28,37.8,Both,12,Low,Healthy,N/A,Renal Support Diet,No
+126,6,6.6,Scottish Fold,"Difficulty Breathing, None",Kidney Disease,66,200,36,38.7,Both,24,Moderate,Healthy,N/A,Balanced Diet,No
+127,2,4.1,Sphynx,"Lethargy, Weight Loss, Difficulty Breathing",Obesity,72,207,35,37.7,Both,67,High,Healthy,N/A,Renal Support Diet,Yes
+128,6,6.8,Maine Coon,Coughing,Diabetes,69,201,35,38.5,Outdoor,26,Moderate,Diabetes,"Dust, Stress",Renal Support Diet,No
+129,8,5.4,Sphynx,"Sneezing, Difficulty Breathing, Coughing",Heart Condition,70,211,23,37.6,Outdoor,16,Low,Healthy,N/A,Low-sodium Diet,No
+130,9,6.4,Ragdoll,"Loss of Appetite, Vomiting",Diabetes,60,165,35,38.4,Outdoor,92,Severe,Healthy,N/A,Balanced Diet,Yes
+131,10,4.1,British Shorthair,None,Obesity,49,206,29,40.0,Both,19,Low,Healthy,N/A,Low-sodium Diet,No
+132,12,3.9,Scottish Fold,Weight Loss,Heart Condition,50,208,40,38.9,Both,4,Low,Healthy,N/A,Low-sodium Diet,No
+133,10,4.4,British Shorthair,Weight Loss,Diabetes,72,169,21,38.8,Both,65,High,Diabetes,"N/A, Genetic",High-protein Diet,Yes
+134,3,3.6,British Shorthair,Vomiting,Arthritis,52,168,30,38.2,Outdoor,57,High,Heart Disease,"Poor Diet, Stress",Low-sodium Diet,Yes
+135,5,5.5,Scottish Fold,"Sneezing, Vomiting, None",Heart Condition,47,167,39,37.7,Indoor,22,Moderate,Diabetes,"Stress, N/A",Balanced Diet,No
+136,2,2.8,Scottish Fold,"Lethargy, Sneezing",Heart Condition,67,163,28,39.7,Both,35,Moderate,Gastrointestinal Issue,N/A,Renal Support Diet,No
+137,13,6.2,Maine Coon,"Weight Loss, Loss of Appetite, Vomiting",Obesity,59,156,22,38.2,Both,76,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+138,12,3.3,Sphynx,None,Heart Condition,60,167,20,37.8,Indoor,100,Severe,Obesity,N/A,"Wet food, Hydration",Yes
+139,2,6.6,British Shorthair,"Coughing, None",Diabetes,46,206,25,38.6,Both,92,Severe,Obesity,Poor Diet,High-protein Diet,Yes
+140,9,4.2,Sphynx,"Loss of Appetite, Sneezing, Vomiting",Kidney Disease,52,214,27,37.8,Indoor,22,Moderate,Gastrointestinal Issue,Poor Diet,"Wet food, Hydration",No
+141,6,6.0,Siamese,Coughing,Diabetes,67,169,37,37.6,Both,85,Severe,Heart Disease,"Age-related, Dehydration",Diabetic-friendly Diet,Yes
+142,2,3.6,Maine Coon,"Vomiting, Lethargy",None,72,183,26,39.7,Both,15,Low,Healthy,N/A,High-protein Diet,No
+143,8,6.4,British Shorthair,"Vomiting, Loss of Appetite",None,57,179,40,39.0,Both,28,Moderate,Obesity,Dehydration,Renal Support Diet,No
+144,3,2.8,Maine Coon,"Coughing, Vomiting",Heart Condition,71,207,26,38.9,Outdoor,14,Low,Healthy,N/A,Diabetic-friendly Diet,No
+145,14,4.0,Siamese,"Difficulty Breathing, None",None,49,146,31,39.8,Indoor,52,High,Heart Disease,Genetic,"Wet food, Hydration",Yes
+146,11,5.2,Scottish Fold,"Lethargy, Coughing, Vomiting",Arthritis,47,166,25,39.0,Outdoor,25,Moderate,Respiratory Infection,"Poor Diet, Genetic",Diabetic-friendly Diet,No
+147,5,4.5,Maine Coon,Difficulty Breathing,Heart Condition,52,143,40,37.7,Indoor,35,Moderate,Kidney Failure,Dehydration,Diabetic-friendly Diet,No
+148,14,2.6,British Shorthair,Sneezing,Obesity,68,168,33,39.7,Outdoor,29,Moderate,Heart Disease,Poor Diet,"Wet food, Hydration",No
+149,3,3.8,Maine Coon,"Difficulty Breathing, Loss of Appetite, Coughing",Kidney Disease,75,203,33,38.7,Indoor,91,Severe,Healthy,N/A,"Wet food, Hydration",Yes
+150,14,5.9,British Shorthair,"Coughing, Loss of Appetite",None,59,174,38,40.0,Outdoor,93,Severe,Healthy,N/A,Diabetic-friendly Diet,Yes
+151,4,2.5,Scottish Fold,"Lethargy, None, Weight Loss",Arthritis,62,173,22,38.1,Indoor,91,Severe,Kidney Failure,"Age-related, Stress",Balanced Diet,Yes
+152,13,4.9,Scottish Fold,"Lethargy, Difficulty Breathing",Heart Condition,61,186,40,39.5,Both,43,Moderate,Gastrointestinal Issue,"N/A, Dust",Balanced Diet,No
+153,1,3.6,Persian,"Coughing, Loss of Appetite",Heart Condition,74,193,34,39.3,Indoor,86,Severe,Obesity,Poor Diet,Diabetic-friendly Diet,Yes
+154,7,3.8,Siamese,"Weight Loss, Loss of Appetite",Diabetes,52,203,22,38.8,Indoor,28,Moderate,Respiratory Infection,Dehydration,Renal Support Diet,No
+155,3,3.6,Bengal,"Vomiting, None",None,68,163,20,38.2,Indoor,93,Severe,Healthy,N/A,Renal Support Diet,Yes
+156,8,4.1,Siamese,"Lethargy, Difficulty Breathing",None,68,158,27,38.4,Indoor,5,Low,Healthy,N/A,Diabetic-friendly Diet,No
+157,1,5.0,Persian,"Vomiting, None, Difficulty Breathing",Kidney Disease,50,164,27,38.2,Outdoor,79,High,Heart Disease,Genetic,"Wet food, Hydration",Yes
+158,13,3.7,British Shorthair,Vomiting,Arthritis,58,211,34,38.8,Outdoor,89,Severe,Kidney Failure,"Poor Diet, N/A",Renal Support Diet,Yes
+159,12,5.3,British Shorthair,Coughing,Arthritis,49,218,32,38.5,Indoor,40,Moderate,Heart Disease,"Dust, Dehydration",Low-sodium Diet,No
+160,5,3.1,British Shorthair,"Sneezing, None, Loss of Appetite",Arthritis,45,163,26,39.7,Both,6,Low,Healthy,N/A,Renal Support Diet,No
+161,14,4.6,Siamese,None,Kidney Disease,48,206,36,39.8,Indoor,55,High,Diabetes,Dust,Low-sodium Diet,Yes
+162,4,4.6,Persian,None,None,60,151,37,38.1,Indoor,56,High,Gastrointestinal Issue,Stress,"Wet food, Hydration",Yes
+163,14,3.1,Sphynx,Lethargy,Heart Condition,66,185,28,38.1,Indoor,68,High,Diabetes,"Allergies, Poor Diet",Low-sodium Diet,Yes
+164,8,3.6,Bengal,Weight Loss,Kidney Disease,59,187,24,38.6,Both,9,Low,Healthy,N/A,Diabetic-friendly Diet,No
+165,9,6.3,British Shorthair,"Vomiting, Loss of Appetite, Difficulty Breathing",Arthritis,61,158,25,39.5,Indoor,25,Moderate,Gastrointestinal Issue,"Genetic, Stress",High-protein Diet,No
+166,11,6.8,Scottish Fold,"Difficulty Breathing, Coughing",Obesity,51,164,35,37.8,Indoor,57,High,Gastrointestinal Issue,"Age-related, Dust",Renal Support Diet,Yes
+167,14,3.4,British Shorthair,None,Kidney Disease,75,199,39,38.6,Indoor,60,High,Obesity,Genetic,Balanced Diet,Yes
+168,2,4.4,Scottish Fold,None,Arthritis,62,178,35,39.6,Indoor,8,Low,Healthy,N/A,Diabetic-friendly Diet,No
+169,1,6.9,Siamese,"Vomiting, Lethargy",Heart Condition,67,183,23,38.4,Indoor,43,Moderate,Kidney Failure,"Dehydration, Genetic","Wet food, Hydration",No
+170,9,3.9,British Shorthair,"Loss of Appetite, Coughing",Obesity,50,186,32,37.7,Indoor,59,High,Heart Disease,"Poor Diet, Stress","Wet food, Hydration",Yes
+171,13,6.3,Ragdoll,None,None,65,194,37,38.5,Indoor,64,High,Kidney Failure,"Dehydration, Allergies",Renal Support Diet,Yes
+172,2,4.5,Bengal,None,Arthritis,65,152,35,38.7,Indoor,13,Low,Healthy,N/A,Renal Support Diet,No
+173,2,4.1,Siamese,None,Heart Condition,61,182,33,38.6,Both,53,High,Heart Disease,Poor Diet,Balanced Diet,Yes
+174,13,6.3,Maine Coon,Vomiting,None,66,195,23,39.4,Indoor,41,Moderate,Kidney Failure,"Poor Diet, Age-related",Balanced Diet,No
+175,8,6.9,Scottish Fold,"Coughing, Weight Loss",Diabetes,55,186,23,39.8,Indoor,93,Severe,Gastrointestinal Issue,Poor Diet,High-protein Diet,Yes
+176,3,3.8,Persian,Weight Loss,Kidney Disease,67,153,35,38.6,Indoor,87,Severe,Gastrointestinal Issue,"Stress, Dehydration",Diabetic-friendly Diet,Yes
+177,10,4.5,Sphynx,Sneezing,Kidney Disease,63,142,33,39.7,Both,8,Low,Healthy,N/A,"Wet food, Hydration",No
+178,12,5.0,Sphynx,"Weight Loss, Sneezing",None,73,177,27,37.9,Indoor,82,Severe,Respiratory Infection,Age-related,Balanced Diet,Yes
+179,3,5.8,Bengal,None,Heart Condition,74,190,31,39.1,Both,32,Moderate,Heart Disease,"Allergies, Stress",Diabetic-friendly Diet,No
+180,15,3.1,Ragdoll,"Loss of Appetite, Coughing, Weight Loss",Diabetes,57,195,31,37.9,Outdoor,17,Low,Healthy,N/A,"Wet food, Hydration",No
+181,13,5.0,Persian,"Sneezing, None, Lethargy",Kidney Disease,61,197,38,37.9,Indoor,14,Low,Healthy,N/A,High-protein Diet,No
+182,4,6.9,Scottish Fold,"None, Lethargy",Obesity,51,201,36,40.0,Indoor,80,High,Gastrointestinal Issue,Genetic,Diabetic-friendly Diet,Yes
+183,12,2.6,Sphynx,Vomiting,Kidney Disease,74,161,36,38.2,Indoor,4,Low,Healthy,N/A,Balanced Diet,No
+184,3,3.4,Sphynx,"Difficulty Breathing, Lethargy",Diabetes,55,178,26,39.5,Indoor,93,Severe,Gastrointestinal Issue,Dehydration,Diabetic-friendly Diet,Yes
+185,13,4.8,Bengal,"Coughing, Loss of Appetite, Weight Loss",Diabetes,61,173,33,37.7,Outdoor,47,Moderate,Gastrointestinal Issue,"Genetic, N/A",Low-sodium Diet,No
+186,1,4.1,Bengal,Loss of Appetite,None,74,153,24,39.7,Outdoor,90,Severe,Healthy,N/A,Diabetic-friendly Diet,Yes
+187,8,5.2,Siamese,"Lethargy, Difficulty Breathing, Coughing",Diabetes,45,165,28,39.6,Both,51,High,Gastrointestinal Issue,"N/A, Allergies",Balanced Diet,Yes
+188,6,6.1,Maine Coon,"None, Weight Loss, Sneezing",Diabetes,71,155,22,39.8,Both,53,High,Gastrointestinal Issue,Dehydration,"Wet food, Hydration",Yes
+189,14,3.3,Maine Coon,"Lethargy, Coughing",Arthritis,64,216,34,37.5,Both,41,Moderate,Obesity,"N/A, Dehydration","Wet food, Hydration",No
+190,14,6.7,Siamese,"None, Loss of Appetite",Obesity,69,168,33,38.2,Both,95,Severe,Healthy,N/A,High-protein Diet,Yes
+191,7,6.0,Scottish Fold,Weight Loss,Heart Condition,73,161,23,38.1,Outdoor,36,Moderate,Heart Disease,"Poor Diet, N/A",Balanced Diet,No
+192,5,6.4,Ragdoll,"Weight Loss, None",Heart Condition,74,178,33,37.8,Both,1,Low,Healthy,N/A,"Wet food, Hydration",No
+193,3,5.0,Ragdoll,None,Diabetes,66,189,40,39.3,Indoor,16,Low,Healthy,N/A,High-protein Diet,No
+194,15,4.0,British Shorthair,Lethargy,None,73,161,23,39.7,Both,86,Severe,Gastrointestinal Issue,Stress,Low-sodium Diet,Yes
+195,8,6.1,British Shorthair,None,Arthritis,67,142,31,37.6,Indoor,23,Moderate,Obesity,Dehydration,High-protein Diet,No
+196,14,5.3,Ragdoll,Difficulty Breathing,Obesity,50,149,25,40.0,Both,70,High,Obesity,"Poor Diet, Stress",Diabetic-friendly Diet,Yes
+197,3,4.6,Sphynx,"Coughing, None, Lethargy",Heart Condition,56,161,36,38.5,Outdoor,25,Moderate,Obesity,"Dust, Age-related",High-protein Diet,No
+198,5,2.7,Persian,None,Kidney Disease,54,175,27,39.3,Both,35,Moderate,Gastrointestinal Issue,Dehydration,Low-sodium Diet,No
+199,1,3.1,Sphynx,Loss of Appetite,Kidney Disease,67,141,35,37.6,Both,32,Moderate,Gastrointestinal Issue,Genetic,Balanced Diet,No
+200,14,4.5,Sphynx,None,None,58,160,31,38.5,Outdoor,99,Severe,Diabetes,"Genetic, Dust",High-protein Diet,Yes
+201,11,5.6,British Shorthair,"Lethargy, Weight Loss, None",Obesity,70,186,21,39.0,Indoor,79,High,Diabetes,"Genetic, Dehydration",Diabetic-friendly Diet,Yes
+202,12,6.4,Bengal,None,Kidney Disease,46,203,39,37.6,Outdoor,36,Moderate,Kidney Failure,Dust,Diabetic-friendly Diet,No
+203,9,6.2,Scottish Fold,None,Obesity,48,191,20,39.6,Indoor,76,High,Healthy,N/A,High-protein Diet,Yes
+204,1,6.9,Maine Coon,None,Heart Condition,65,172,35,37.8,Both,13,Low,Healthy,N/A,High-protein Diet,No
+205,5,4.4,Sphynx,"Sneezing, Weight Loss",Heart Condition,58,194,36,38.9,Indoor,95,Severe,Kidney Failure,"Allergies, Genetic",Diabetic-friendly Diet,Yes
+206,6,4.6,Siamese,"Difficulty Breathing, Lethargy, Weight Loss",Obesity,55,184,25,38.6,Both,0,Low,Healthy,N/A,Balanced Diet,No
+207,12,5.9,Scottish Fold,Difficulty Breathing,Diabetes,53,198,34,39.2,Indoor,74,High,Obesity,Stress,"Wet food, Hydration",Yes
+208,4,5.2,Persian,None,Arthritis,72,199,34,38.5,Outdoor,85,Severe,Obesity,"N/A, Dehydration",Diabetic-friendly Diet,Yes
+209,6,6.4,Sphynx,"Loss of Appetite, Weight Loss, Difficulty Breathing",Heart Condition,62,191,34,38.1,Outdoor,76,High,Heart Disease,Allergies,Diabetic-friendly Diet,Yes
+210,13,3.5,Sphynx,"Coughing, None",Heart Condition,55,168,22,38.5,Indoor,7,Low,Healthy,N/A,Renal Support Diet,No
+211,7,6.9,Persian,None,Heart Condition,61,186,30,38.5,Both,32,Moderate,Respiratory Infection,"Age-related, Dust",Low-sodium Diet,No
+212,4,6.7,Scottish Fold,"Loss of Appetite, None",Obesity,64,164,22,37.7,Both,78,High,Diabetes,Genetic,High-protein Diet,Yes
+213,6,5.4,British Shorthair,"Vomiting, Loss of Appetite, Lethargy",None,53,210,25,38.6,Indoor,5,Low,Healthy,N/A,Renal Support Diet,No
+214,15,5.9,Siamese,None,None,59,168,40,38.0,Indoor,5,Low,Healthy,N/A,Balanced Diet,No
+215,8,5.9,Bengal,None,None,65,190,27,39.1,Indoor,35,Moderate,Respiratory Infection,N/A,Diabetic-friendly Diet,No
+216,5,5.8,Siamese,"Difficulty Breathing, Vomiting",Arthritis,74,214,33,39.1,Both,18,Low,Healthy,N/A,High-protein Diet,No
+217,13,5.5,British Shorthair,"Lethargy, Difficulty Breathing",Kidney Disease,51,188,23,38.1,Both,18,Low,Healthy,N/A,Renal Support Diet,No
+218,13,5.8,Persian,None,None,46,207,21,40.0,Outdoor,81,Severe,Diabetes,"N/A, Stress",High-protein Diet,Yes
+219,10,5.8,Persian,Sneezing,Diabetes,51,191,23,38.1,Outdoor,89,Severe,Healthy,N/A,Low-sodium Diet,Yes
+220,7,4.1,Bengal,"Vomiting, Lethargy",Arthritis,64,187,35,40.0,Indoor,5,Low,Healthy,N/A,"Wet food, Hydration",No
+221,8,5.7,Maine Coon,None,Diabetes,72,179,20,40.0,Indoor,63,High,Gastrointestinal Issue,"Age-related, Stress",Low-sodium Diet,Yes
+222,6,4.8,Bengal,Coughing,Diabetes,49,220,24,38.6,Both,0,Low,Healthy,N/A,Low-sodium Diet,No
+223,11,4.1,Scottish Fold,"Lethargy, None, Weight Loss",Kidney Disease,66,173,28,39.0,Both,29,Moderate,Obesity,"Allergies, Stress",Renal Support Diet,No
+224,14,6.1,Maine Coon,"Loss of Appetite, Weight Loss",Obesity,47,219,24,38.4,Outdoor,74,High,Gastrointestinal Issue,"Age-related, Poor Diet",High-protein Diet,Yes
+225,2,5.8,Persian,"Lethargy, None, Loss of Appetite",Diabetes,71,184,35,39.4,Outdoor,49,Moderate,Respiratory Infection,"Allergies, Genetic","Wet food, Hydration",No
+226,12,3.8,Ragdoll,"Coughing, Difficulty Breathing, Lethargy",Diabetes,64,168,35,37.9,Indoor,23,Moderate,Diabetes,"N/A, Dust",Balanced Diet,No
+227,8,5.0,Ragdoll,Weight Loss,Arthritis,51,152,34,38.7,Outdoor,76,High,Respiratory Infection,Age-related,Diabetic-friendly Diet,Yes
+228,12,6.5,Scottish Fold,None,Heart Condition,46,145,38,38.3,Outdoor,96,Severe,Respiratory Infection,"Poor Diet, Genetic",Diabetic-friendly Diet,Yes
+229,1,3.6,Siamese,Loss of Appetite,Heart Condition,54,197,38,38.8,Both,14,Low,Healthy,N/A,Renal Support Diet,No
+230,3,3.6,Sphynx,Sneezing,Diabetes,63,197,27,38.9,Both,30,Moderate,Healthy,N/A,Renal Support Diet,No
+231,12,3.1,British Shorthair,"Difficulty Breathing, Lethargy, Vomiting",Heart Condition,67,156,24,37.8,Both,62,High,Heart Disease,Genetic,Balanced Diet,Yes
+232,1,6.0,Siamese,None,Diabetes,56,220,20,38.3,Indoor,5,Low,Healthy,N/A,Renal Support Diet,No
+233,4,5.4,Persian,"Sneezing, None, Lethargy",Arthritis,63,197,34,39.5,Both,35,Moderate,Obesity,"N/A, Genetic","Wet food, Hydration",No
+234,8,4.1,Sphynx,"Weight Loss, Sneezing, None",None,61,155,22,39.2,Both,8,Low,Healthy,N/A,"Wet food, Hydration",No
+235,9,6.1,Ragdoll,None,Heart Condition,61,187,23,38.8,Both,46,Moderate,Healthy,N/A,"Wet food, Hydration",No
+236,15,5.6,Bengal,"Coughing, Lethargy, Difficulty Breathing",Kidney Disease,48,202,31,37.9,Indoor,5,Low,Healthy,N/A,Balanced Diet,No
+237,12,6.0,Siamese,"Sneezing, Difficulty Breathing, None",Kidney Disease,72,189,21,38.3,Both,28,Moderate,Healthy,N/A,Balanced Diet,No
+238,11,6.1,Ragdoll,"Loss of Appetite, Difficulty Breathing",Heart Condition,61,197,22,39.6,Both,99,Severe,Diabetes,"N/A, Dust",Low-sodium Diet,Yes
+239,15,3.5,Scottish Fold,"Weight Loss, Loss of Appetite",Obesity,60,198,36,39.2,Both,83,Severe,Gastrointestinal Issue,"Age-related, Poor Diet",High-protein Diet,Yes
+240,10,3.1,Maine Coon,"Difficulty Breathing, Sneezing, None",Arthritis,63,183,31,37.6,Indoor,77,High,Kidney Failure,"Allergies, Dehydration",Balanced Diet,Yes
+241,15,2.8,Siamese,"Weight Loss, Loss of Appetite",Heart Condition,71,218,33,39.8,Both,48,Moderate,Respiratory Infection,"Age-related, Stress",Diabetic-friendly Diet,No
+242,15,2.7,Bengal,None,Arthritis,70,184,38,39.1,Both,63,High,Diabetes,Dehydration,"Wet food, Hydration",Yes
+243,11,6.9,Maine Coon,None,None,68,188,26,39.9,Outdoor,32,Moderate,Kidney Failure,Genetic,High-protein Diet,No
+244,5,5.8,Scottish Fold,None,Kidney Disease,54,156,20,38.3,Both,29,Moderate,Gastrointestinal Issue,Stress,High-protein Diet,No
+245,2,2.6,Maine Coon,"Loss of Appetite, Coughing, Difficulty Breathing",Heart Condition,49,194,27,38.1,Both,61,High,Diabetes,"Dehydration, Age-related",Balanced Diet,Yes
+246,14,3.1,Ragdoll,Vomiting,Diabetes,49,207,24,37.9,Both,19,Low,Healthy,N/A,Low-sodium Diet,No
+247,3,4.2,Sphynx,"Coughing, Weight Loss, None",Heart Condition,64,182,29,39.4,Indoor,51,High,Respiratory Infection,"Genetic, Age-related","Wet food, Hydration",Yes
+248,12,5.0,Sphynx,"Sneezing, None",Heart Condition,66,201,32,38.9,Indoor,11,Low,Healthy,N/A,Diabetic-friendly Diet,No
+249,13,2.7,Sphynx,"Vomiting, None, Weight Loss",None,49,163,30,38.9,Both,83,Severe,Respiratory Infection,"Allergies, Age-related",Balanced Diet,Yes
+250,9,3.8,Maine Coon,"Lethargy, Coughing, Weight Loss",Arthritis,60,183,28,38.1,Indoor,58,High,Respiratory Infection,"Allergies, Poor Diet",Balanced Diet,Yes
+251,11,5.4,Persian,None,Diabetes,51,175,38,39.8,Outdoor,12,Low,Healthy,N/A,"Wet food, Hydration",No
+252,11,6.4,Persian,Sneezing,Arthritis,58,161,25,38.1,Outdoor,27,Moderate,Heart Disease,Dehydration,Diabetic-friendly Diet,No
+253,11,6.5,Bengal,"Difficulty Breathing, Sneezing, Lethargy",Obesity,57,188,37,39.0,Outdoor,90,Severe,Diabetes,N/A,Low-sodium Diet,Yes
+254,2,3.4,British Shorthair,"None, Loss of Appetite, Difficulty Breathing",None,54,203,39,39.2,Both,76,High,Gastrointestinal Issue,Dehydration,Balanced Diet,Yes
+255,4,3.3,Bengal,None,Heart Condition,47,141,24,37.8,Indoor,76,High,Heart Disease,Poor Diet,Renal Support Diet,Yes
+256,1,4.7,Persian,"Difficulty Breathing, Loss of Appetite, Vomiting",Heart Condition,62,161,21,39.3,Both,50,Moderate,Respiratory Infection,Allergies,High-protein Diet,No
+257,8,5.2,Maine Coon,None,Heart Condition,74,185,22,37.6,Outdoor,22,Moderate,Diabetes,"Dust, Allergies",Balanced Diet,No
+258,15,4.8,Maine Coon,"Difficulty Breathing, Weight Loss",Kidney Disease,62,185,32,38.9,Both,83,Severe,Gastrointestinal Issue,N/A,High-protein Diet,Yes
+259,12,3.1,Persian,Difficulty Breathing,Obesity,56,143,23,38.8,Outdoor,79,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+260,14,5.7,Maine Coon,Difficulty Breathing,Heart Condition,50,169,39,39.5,Outdoor,66,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+261,2,3.9,Ragdoll,Sneezing,Diabetes,56,216,21,38.1,Outdoor,17,Low,Healthy,N/A,"Wet food, Hydration",No
+262,6,2.5,Bengal,"Lethargy, Vomiting",Kidney Disease,45,149,32,39.4,Both,34,Moderate,Gastrointestinal Issue,"Poor Diet, N/A",Renal Support Diet,No
+263,13,2.9,British Shorthair,Weight Loss,Obesity,52,205,27,38.6,Outdoor,10,Low,Healthy,N/A,Renal Support Diet,No
+264,14,4.1,Bengal,"Coughing, Weight Loss",Diabetes,63,214,27,39.2,Indoor,37,Moderate,Healthy,N/A,Diabetic-friendly Diet,No
+265,9,6.2,Maine Coon,None,Heart Condition,55,169,32,39.1,Both,57,High,Kidney Failure,Genetic,"Wet food, Hydration",Yes
+266,10,2.9,Maine Coon,None,None,52,210,32,40.0,Indoor,58,High,Diabetes,Stress,Low-sodium Diet,Yes
+267,4,6.4,Siamese,None,Kidney Disease,47,170,37,39.0,Indoor,58,High,Diabetes,Allergies,Low-sodium Diet,Yes
+268,3,3.7,Bengal,None,Arthritis,74,154,27,38.0,Outdoor,39,Moderate,Gastrointestinal Issue,"Poor Diet, Stress",Renal Support Diet,No
+269,14,5.9,Siamese,"Vomiting, Sneezing",Diabetes,66,178,22,37.8,Outdoor,66,High,Obesity,"Allergies, Age-related",Low-sodium Diet,Yes
+270,8,4.9,Scottish Fold,"Lethargy, Weight Loss, Loss of Appetite",Arthritis,56,185,36,39.9,Both,0,Low,Healthy,N/A,High-protein Diet,No
+271,5,5.8,Ragdoll,Difficulty Breathing,Arthritis,60,182,32,38.0,Both,63,High,Heart Disease,N/A,Balanced Diet,Yes
+272,14,6.0,Ragdoll,"Weight Loss, None",Kidney Disease,69,189,25,37.6,Indoor,90,Severe,Gastrointestinal Issue,"N/A, Allergies",Renal Support Diet,Yes
+273,15,6.8,Maine Coon,Lethargy,Arthritis,67,197,36,39.1,Outdoor,66,High,Kidney Failure,Genetic,Balanced Diet,Yes
+274,10,5.0,Ragdoll,"Weight Loss, Lethargy",None,69,162,25,39.0,Both,22,Moderate,Diabetes,"Allergies, N/A",Diabetic-friendly Diet,No
+275,5,5.7,Bengal,"Loss of Appetite, Vomiting",Heart Condition,71,171,33,39.4,Outdoor,40,Moderate,Obesity,Allergies,Diabetic-friendly Diet,No
+276,10,2.8,Ragdoll,"Sneezing, Weight Loss",Kidney Disease,69,170,34,38.3,Outdoor,39,Moderate,Diabetes,"Stress, Dehydration",Balanced Diet,No
+277,9,6.9,Sphynx,"Loss of Appetite, Difficulty Breathing",Obesity,66,207,23,39.3,Outdoor,46,Moderate,Gastrointestinal Issue,Dehydration,High-protein Diet,No
+278,1,6.7,Scottish Fold,"Weight Loss, Coughing, Difficulty Breathing",Obesity,56,165,28,39.7,Indoor,96,Severe,Heart Disease,Dust,Renal Support Diet,Yes
+279,10,4.7,Bengal,"Vomiting, Sneezing",Diabetes,58,201,26,37.7,Indoor,6,Low,Healthy,N/A,Low-sodium Diet,No
+280,5,6.1,Ragdoll,Lethargy,Heart Condition,59,152,22,39.6,Outdoor,78,High,Healthy,N/A,Balanced Diet,Yes
+281,13,3.6,Bengal,None,Obesity,55,205,40,39.2,Indoor,98,Severe,Obesity,Stress,Renal Support Diet,Yes
+282,4,4.6,Siamese,Coughing,None,45,180,34,38.6,Both,3,Low,Healthy,N/A,Low-sodium Diet,No
+283,3,7.0,Siamese,Sneezing,Kidney Disease,55,187,34,38.1,Outdoor,74,High,Kidney Failure,Dust,Low-sodium Diet,Yes
+284,12,5.8,Ragdoll,"None, Difficulty Breathing",Obesity,57,211,29,37.7,Both,67,High,Healthy,N/A,Balanced Diet,Yes
+285,5,6.8,Bengal,"Difficulty Breathing, Weight Loss",Kidney Disease,52,211,30,39.2,Indoor,33,Moderate,Diabetes,Stress,High-protein Diet,No
+286,10,2.5,Maine Coon,None,Diabetes,61,180,29,39.9,Outdoor,38,Moderate,Heart Disease,Stress,"Wet food, Hydration",No
+287,15,6.9,Maine Coon,"Loss of Appetite, None, Vomiting",Kidney Disease,53,211,20,39.1,Both,3,Low,Healthy,N/A,Diabetic-friendly Diet,No
+288,14,3.1,Persian,"Weight Loss, Coughing, Loss of Appetite",Arthritis,62,179,21,37.6,Indoor,43,Moderate,Gastrointestinal Issue,Age-related,Diabetic-friendly Diet,No
+289,3,4.9,Persian,"Difficulty Breathing, Sneezing",Diabetes,56,217,25,39.6,Both,43,Moderate,Healthy,N/A,Low-sodium Diet,No
+290,7,3.1,Maine Coon,"Vomiting, Coughing",None,66,161,30,39.9,Outdoor,67,High,Heart Disease,N/A,Low-sodium Diet,Yes
+291,11,3.6,Siamese,"None, Loss of Appetite",None,48,219,35,38.4,Both,2,Low,Healthy,N/A,"Wet food, Hydration",No
+292,3,5.7,Siamese,"Vomiting, Coughing",Obesity,57,200,25,38.9,Outdoor,85,Severe,Respiratory Infection,"Dehydration, Allergies",Diabetic-friendly Diet,Yes
+293,3,3.9,Sphynx,"None, Coughing, Vomiting",Heart Condition,74,188,24,37.6,Both,38,Moderate,Respiratory Infection,"Dust, Allergies","Wet food, Hydration",No
+294,10,6.0,Bengal,Lethargy,None,62,198,36,37.7,Outdoor,52,High,Heart Disease,"Age-related, Dehydration","Wet food, Hydration",Yes
+295,11,5.4,Siamese,"Loss of Appetite, Vomiting, Lethargy",Diabetes,70,160,33,38.6,Outdoor,56,High,Kidney Failure,Dehydration,Diabetic-friendly Diet,Yes
+296,11,3.0,Persian,"Loss of Appetite, None",Obesity,52,147,36,39.5,Indoor,97,Severe,Diabetes,"Poor Diet, Genetic",Balanced Diet,Yes
+297,13,6.5,Persian,"Sneezing, Weight Loss",Diabetes,57,147,40,37.8,Indoor,94,Severe,Respiratory Infection,Dust,"Wet food, Hydration",Yes
+298,14,6.7,Sphynx,"None, Difficulty Breathing",Kidney Disease,53,146,31,37.7,Indoor,31,Moderate,Respiratory Infection,Dehydration,Diabetic-friendly Diet,No
+299,9,6.4,Siamese,None,Kidney Disease,64,166,40,38.7,Both,20,Low,Healthy,N/A,Diabetic-friendly Diet,No
+300,5,5.5,Siamese,None,Obesity,55,167,22,38.8,Indoor,40,Moderate,Gastrointestinal Issue,Age-related,"Wet food, Hydration",No
+301,9,5.1,Scottish Fold,"Sneezing, Difficulty Breathing",None,53,144,29,38.3,Indoor,64,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+302,12,6.4,Sphynx,Lethargy,Arthritis,53,211,32,39.7,Outdoor,69,High,Kidney Failure,"Stress, Age-related",High-protein Diet,Yes
+303,9,5.0,Sphynx,"Weight Loss, Difficulty Breathing, Coughing",Diabetes,74,197,30,38.5,Outdoor,86,Severe,Heart Disease,Genetic,Renal Support Diet,Yes
+304,13,5.0,British Shorthair,"Vomiting, Coughing, None",Obesity,66,144,29,37.7,Indoor,90,Severe,Healthy,N/A,High-protein Diet,Yes
+305,7,3.1,British Shorthair,Vomiting,Obesity,69,202,21,38.8,Both,32,Moderate,Heart Disease,"Poor Diet, Dust",Low-sodium Diet,No
+306,6,3.1,Ragdoll,Weight Loss,Arthritis,53,198,32,38.2,Indoor,36,Moderate,Healthy,N/A,High-protein Diet,No
+307,12,2.9,Maine Coon,Vomiting,Obesity,72,178,30,38.5,Outdoor,89,Severe,Diabetes,"Age-related, Dehydration","Wet food, Hydration",Yes
+308,15,4.2,British Shorthair,Difficulty Breathing,None,45,165,29,39.6,Both,41,Moderate,Healthy,N/A,Renal Support Diet,No
+309,13,6.5,Persian,Coughing,Heart Condition,57,144,29,38.1,Both,53,High,Gastrointestinal Issue,Age-related,Low-sodium Diet,Yes
+310,8,4.6,Siamese,Vomiting,Obesity,57,174,30,37.5,Indoor,32,Moderate,Kidney Failure,Age-related,Renal Support Diet,No
+311,3,6.4,British Shorthair,"Lethargy, Coughing, Vomiting",Arthritis,67,196,29,39.7,Outdoor,73,High,Obesity,Age-related,"Wet food, Hydration",Yes
+312,12,4.2,Scottish Fold,"Weight Loss, Sneezing",Heart Condition,75,177,22,38.4,Both,63,High,Kidney Failure,"Age-related, N/A","Wet food, Hydration",Yes
+313,12,6.3,Ragdoll,"Lethargy, Coughing",Kidney Disease,58,177,31,39.7,Outdoor,58,High,Gastrointestinal Issue,N/A,"Wet food, Hydration",Yes
+314,14,6.2,British Shorthair,"Sneezing, Vomiting",Arthritis,75,207,24,40.0,Indoor,0,Low,Healthy,N/A,High-protein Diet,No
+315,11,2.5,Siamese,None,Obesity,49,192,32,38.0,Both,75,High,Heart Disease,"Allergies, Dehydration",Renal Support Diet,Yes
+316,1,6.2,Sphynx,"Coughing, Difficulty Breathing, Sneezing",Arthritis,69,191,40,39.7,Outdoor,68,High,Heart Disease,Poor Diet,Renal Support Diet,Yes
+317,3,4.7,Maine Coon,"None, Weight Loss",Diabetes,54,211,39,39.2,Indoor,18,Low,Healthy,N/A,Low-sodium Diet,No
+318,5,6.1,Scottish Fold,None,Heart Condition,74,215,39,39.2,Both,74,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+319,10,6.4,Sphynx,"Vomiting, Coughing",Obesity,61,211,35,37.6,Indoor,73,High,Healthy,N/A,"Wet food, Hydration",Yes
+320,11,3.8,Sphynx,"None, Lethargy",Obesity,48,217,31,39.0,Outdoor,75,High,Respiratory Infection,"Stress, Poor Diet",Diabetic-friendly Diet,Yes
+321,11,4.2,Sphynx,"Coughing, Difficulty Breathing",None,74,150,28,39.6,Indoor,71,High,Obesity,Age-related,Low-sodium Diet,Yes
+322,12,5.5,Sphynx,Difficulty Breathing,None,59,167,23,38.4,Both,41,Moderate,Diabetes,Allergies,Low-sodium Diet,No
+323,8,5.8,Persian,Sneezing,Diabetes,60,165,26,38.3,Both,13,Low,Healthy,N/A,High-protein Diet,No
+324,9,4.3,Scottish Fold,None,Arthritis,46,196,23,38.0,Outdoor,14,Low,Healthy,N/A,Low-sodium Diet,No
+325,3,2.6,Scottish Fold,None,None,61,190,38,39.2,Outdoor,47,Moderate,Gastrointestinal Issue,N/A,Renal Support Diet,No
+326,7,3.4,British Shorthair,"Coughing, Loss of Appetite, Weight Loss",Heart Condition,68,147,20,39.9,Indoor,75,High,Heart Disease,Stress,Low-sodium Diet,Yes
+327,5,3.9,Bengal,None,Arthritis,60,193,28,38.3,Outdoor,63,High,Diabetes,Poor Diet,Diabetic-friendly Diet,Yes
+328,12,3.7,Scottish Fold,"Weight Loss, Vomiting, Sneezing",Obesity,46,151,39,38.9,Outdoor,57,High,Kidney Failure,N/A,Renal Support Diet,Yes
+329,12,5.6,Sphynx,None,Diabetes,53,162,22,38.3,Indoor,66,High,Gastrointestinal Issue,"Allergies, Poor Diet",Renal Support Diet,Yes
+330,7,4.2,British Shorthair,Sneezing,None,52,217,27,38.6,Outdoor,96,Severe,Kidney Failure,"Poor Diet, Dust","Wet food, Hydration",Yes
+331,14,4.3,Maine Coon,None,Heart Condition,54,205,38,38.7,Indoor,58,High,Diabetes,Genetic,Balanced Diet,Yes
+332,9,3.4,Siamese,"Lethargy, Sneezing, Loss of Appetite",Diabetes,64,180,35,38.0,Outdoor,78,High,Diabetes,Poor Diet,Low-sodium Diet,Yes
+333,13,6.3,British Shorthair,"None, Vomiting",Kidney Disease,70,159,36,39.9,Indoor,30,Moderate,Kidney Failure,Poor Diet,"Wet food, Hydration",No
+334,3,5.9,Bengal,Loss of Appetite,Diabetes,64,184,30,38.6,Outdoor,12,Low,Healthy,N/A,"Wet food, Hydration",No
+335,12,6.8,Maine Coon,Loss of Appetite,Kidney Disease,75,160,38,39.9,Both,65,High,Diabetes,Poor Diet,Diabetic-friendly Diet,Yes
+336,6,4.6,Siamese,None,Kidney Disease,72,168,40,37.8,Both,50,Moderate,Kidney Failure,Dehydration,High-protein Diet,No
+337,14,6.8,Siamese,"Sneezing, Weight Loss",Kidney Disease,60,147,30,38.1,Both,41,Moderate,Gastrointestinal Issue,"Dehydration, Age-related",Diabetic-friendly Diet,No
+338,15,5.8,Sphynx,"Loss of Appetite, Coughing, Lethargy",Arthritis,68,141,36,39.7,Both,60,High,Obesity,Genetic,Diabetic-friendly Diet,Yes
+339,9,5.0,Ragdoll,None,None,74,218,32,38.9,Indoor,2,Low,Healthy,N/A,Renal Support Diet,No
+340,10,5.8,British Shorthair,"None, Difficulty Breathing",Diabetes,72,209,29,38.9,Both,41,Moderate,Kidney Failure,Genetic,High-protein Diet,No
+341,6,2.9,Ragdoll,Difficulty Breathing,Arthritis,62,175,23,39.7,Both,42,Moderate,Gastrointestinal Issue,"Genetic, Dust",Diabetic-friendly Diet,No
+342,10,5.2,British Shorthair,Coughing,Kidney Disease,46,161,21,38.6,Indoor,14,Low,Healthy,N/A,Low-sodium Diet,No
+343,9,3.0,British Shorthair,None,Arthritis,69,176,29,39.8,Both,25,Moderate,Obesity,Stress,Balanced Diet,No
+344,4,3.1,Sphynx,None,Diabetes,70,210,28,37.6,Both,21,Moderate,Heart Disease,"Poor Diet, Allergies",Renal Support Diet,No
+345,6,6.0,British Shorthair,"Weight Loss, Loss of Appetite",None,55,220,38,37.6,Both,59,High,Gastrointestinal Issue,Age-related,"Wet food, Hydration",Yes
+346,9,4.6,Maine Coon,None,Kidney Disease,65,204,31,39.8,Indoor,55,High,Gastrointestinal Issue,Dehydration,Diabetic-friendly Diet,Yes
+347,1,2.7,Ragdoll,"Weight Loss, Lethargy",Kidney Disease,46,206,30,39.1,Indoor,47,Moderate,Obesity,Allergies,Low-sodium Diet,No
+348,9,2.6,Sphynx,"Weight Loss, Vomiting, Sneezing",Diabetes,67,168,21,38.6,Outdoor,50,Moderate,Diabetes,Poor Diet,"Wet food, Hydration",No
+349,14,6.2,Ragdoll,Loss of Appetite,Heart Condition,51,199,30,38.4,Both,21,Moderate,Gastrointestinal Issue,Allergies,Diabetic-friendly Diet,No
+350,10,5.0,Persian,"Coughing, Sneezing, Weight Loss",Heart Condition,71,218,35,39.1,Both,5,Low,Healthy,N/A,Low-sodium Diet,No
+351,5,6.4,British Shorthair,None,Arthritis,69,188,27,37.6,Outdoor,76,High,Gastrointestinal Issue,Dust,Diabetic-friendly Diet,Yes
+352,9,3.8,Siamese,"Vomiting, Coughing",Heart Condition,52,150,37,38.7,Indoor,69,High,Respiratory Infection,"Allergies, N/A",High-protein Diet,Yes
+353,15,2.8,Bengal,"Difficulty Breathing, Coughing, Lethargy",None,47,198,23,39.8,Indoor,36,Moderate,Obesity,"Dehydration, Poor Diet",Balanced Diet,No
+354,1,6.8,Siamese,Difficulty Breathing,Diabetes,54,208,29,39.6,Both,31,Moderate,Heart Disease,Poor Diet,High-protein Diet,No
+355,7,3.0,Ragdoll,None,Diabetes,47,195,27,39.8,Outdoor,9,Low,Healthy,N/A,Balanced Diet,No
+356,11,5.4,Ragdoll,"Weight Loss, None, Lethargy",Diabetes,71,143,40,38.1,Outdoor,3,Low,Healthy,N/A,Renal Support Diet,No
+357,14,3.9,Ragdoll,Weight Loss,None,48,204,36,37.8,Indoor,68,High,Diabetes,Dust,"Wet food, Hydration",Yes
+358,8,3.5,Maine Coon,"Loss of Appetite, Difficulty Breathing, Weight Loss",None,51,142,22,37.8,Outdoor,33,Moderate,Heart Disease,Genetic,High-protein Diet,No
+359,9,4.5,Sphynx,None,Heart Condition,51,174,25,38.3,Both,50,Moderate,Gastrointestinal Issue,Age-related,Low-sodium Diet,No
+360,11,4.7,Maine Coon,None,Heart Condition,64,210,25,38.2,Outdoor,30,Moderate,Kidney Failure,N/A,"Wet food, Hydration",No
+361,9,6.8,Sphynx,"Difficulty Breathing, Vomiting, Loss of Appetite",Diabetes,59,214,35,39.3,Both,55,High,Kidney Failure,Age-related,High-protein Diet,Yes
+362,7,6.4,Persian,"Loss of Appetite, Sneezing",Heart Condition,61,151,21,38.5,Outdoor,85,Severe,Diabetes,"Allergies, Dehydration",Balanced Diet,Yes
+363,5,6.3,Bengal,None,Kidney Disease,71,157,34,38.4,Both,63,High,Gastrointestinal Issue,Dehydration,Diabetic-friendly Diet,Yes
+364,13,3.5,Bengal,None,Arthritis,69,176,23,38.5,Outdoor,10,Low,Healthy,N/A,Diabetic-friendly Diet,No
+365,5,4.0,Maine Coon,"Sneezing, Loss of Appetite",Obesity,64,213,27,39.2,Indoor,56,High,Respiratory Infection,"Dehydration, Age-related",High-protein Diet,Yes
+366,4,4.9,Bengal,None,Obesity,54,190,24,37.7,Indoor,98,Severe,Kidney Failure,Genetic,Diabetic-friendly Diet,Yes
+367,10,6.3,British Shorthair,"Lethargy, Loss of Appetite",Obesity,67,145,20,38.8,Both,13,Low,Healthy,N/A,"Wet food, Hydration",No
+368,4,4.9,Scottish Fold,None,None,72,157,28,39.3,Outdoor,66,High,Respiratory Infection,Dust,Balanced Diet,Yes
+369,1,6.3,Siamese,"Loss of Appetite, Sneezing",None,57,180,24,39.4,Indoor,48,Moderate,Kidney Failure,"Allergies, Age-related",Low-sodium Diet,No
+370,12,5.3,Ragdoll,Loss of Appetite,Heart Condition,68,150,32,38.8,Indoor,8,Low,Healthy,N/A,Low-sodium Diet,No
+371,5,4.1,British Shorthair,"Sneezing, Difficulty Breathing",Heart Condition,65,181,28,37.5,Indoor,81,Severe,Diabetes,"Genetic, Poor Diet",High-protein Diet,Yes
+372,9,4.6,Siamese,None,Obesity,55,166,24,38.1,Outdoor,44,Moderate,Heart Disease,Stress,Renal Support Diet,No
+373,6,3.3,Siamese,"Lethargy, None, Coughing",Obesity,48,177,24,37.5,Indoor,22,Moderate,Obesity,"Genetic, N/A",High-protein Diet,No
+374,14,2.8,Persian,"Weight Loss, Loss of Appetite, None",Arthritis,62,169,39,38.1,Indoor,51,High,Healthy,N/A,Renal Support Diet,Yes
+375,5,6.3,British Shorthair,None,Obesity,52,145,34,39.0,Both,24,Moderate,Heart Disease,"Age-related, Dehydration",Low-sodium Diet,No
+376,6,3.2,Siamese,None,Obesity,53,213,34,39.1,Outdoor,63,High,Obesity,Stress,Low-sodium Diet,Yes
+377,4,6.9,Ragdoll,"None, Loss of Appetite",Kidney Disease,57,142,25,39.7,Indoor,34,Moderate,Diabetes,"N/A, Age-related",High-protein Diet,No
+378,8,5.8,Siamese,"Difficulty Breathing, Loss of Appetite, Coughing",Diabetes,67,206,26,39.7,Outdoor,45,Moderate,Obesity,"Poor Diet, Dust",Low-sodium Diet,No
+379,3,3.3,Persian,Vomiting,Arthritis,57,147,26,38.4,Both,88,Severe,Heart Disease,Stress,Renal Support Diet,Yes
+380,10,6.0,Bengal,"Coughing, Vomiting",None,70,192,23,39.9,Outdoor,85,Severe,Heart Disease,Genetic,Renal Support Diet,Yes
+381,2,6.6,Maine Coon,Loss of Appetite,None,45,160,20,39.1,Both,68,High,Healthy,N/A,Balanced Diet,Yes
+382,11,6.2,Sphynx,Coughing,Obesity,75,202,36,39.7,Indoor,9,Low,Healthy,N/A,Low-sodium Diet,No
+383,8,6.8,Maine Coon,None,Heart Condition,58,188,31,38.1,Indoor,41,Moderate,Obesity,Age-related,High-protein Diet,No
+384,11,3.6,Sphynx,"Weight Loss, Vomiting, None",Arthritis,74,182,31,38.3,Outdoor,92,Severe,Gastrointestinal Issue,Dehydration,Renal Support Diet,Yes
+385,11,3.4,Scottish Fold,None,Kidney Disease,49,142,36,38.1,Both,85,Severe,Respiratory Infection,"N/A, Stress",High-protein Diet,Yes
+386,3,6.9,Sphynx,Weight Loss,Arthritis,46,179,34,39.7,Indoor,79,High,Respiratory Infection,"Dehydration, Poor Diet",Renal Support Diet,Yes
+387,6,4.4,Bengal,"Weight Loss, Vomiting",Kidney Disease,68,183,31,37.7,Both,41,Moderate,Diabetes,"Poor Diet, Age-related",Balanced Diet,No
+388,4,4.2,Bengal,"None, Weight Loss",Kidney Disease,71,150,34,37.6,Indoor,59,High,Kidney Failure,N/A,"Wet food, Hydration",Yes
+389,9,5.9,Persian,"Sneezing, None, Loss of Appetite",Kidney Disease,68,156,27,39.4,Outdoor,25,Moderate,Kidney Failure,"Age-related, Dehydration",Renal Support Diet,No
+390,8,6.1,Siamese,None,Obesity,66,163,20,37.8,Both,55,High,Obesity,Poor Diet,High-protein Diet,Yes
+391,4,5.9,Scottish Fold,"Coughing, None, Weight Loss",None,45,195,37,38.1,Outdoor,26,Moderate,Heart Disease,Dehydration,Diabetic-friendly Diet,No
+392,4,4.1,Ragdoll,"Difficulty Breathing, Coughing, Sneezing",Diabetes,51,154,34,39.5,Indoor,80,High,Diabetes,"Allergies, Genetic",High-protein Diet,Yes
+393,13,5.7,Persian,"Coughing, Difficulty Breathing, Loss of Appetite",Diabetes,52,194,28,39.6,Outdoor,75,High,Diabetes,N/A,Balanced Diet,Yes
+394,9,6.3,Persian,Sneezing,Kidney Disease,70,186,22,38.2,Outdoor,57,High,Kidney Failure,"Age-related, N/A","Wet food, Hydration",Yes
+395,9,4.0,Scottish Fold,"Lethargy, None, Coughing",Heart Condition,47,152,33,39.5,Outdoor,79,High,Gastrointestinal Issue,Dehydration,Balanced Diet,Yes
+396,8,3.6,Ragdoll,"Lethargy, Sneezing, Weight Loss",Obesity,50,169,37,38.6,Outdoor,39,Moderate,Obesity,Dehydration,Low-sodium Diet,No
+397,5,6.1,Scottish Fold,Sneezing,Obesity,51,166,37,38.5,Outdoor,35,Moderate,Heart Disease,Poor Diet,"Wet food, Hydration",No
+398,12,3.7,Ragdoll,"Weight Loss, Lethargy, Sneezing",Heart Condition,59,158,30,38.6,Indoor,94,Severe,Diabetes,"Stress, Allergies",High-protein Diet,Yes
+399,4,6.4,Bengal,"Lethargy, Difficulty Breathing, None",Obesity,63,186,39,38.3,Outdoor,43,Moderate,Diabetes,N/A,High-protein Diet,No
+400,2,2.7,Siamese,"Lethargy, Weight Loss, Loss of Appetite",Heart Condition,65,152,36,38.6,Outdoor,98,Severe,Gastrointestinal Issue,"Genetic, N/A",High-protein Diet,Yes
+401,5,4.9,Sphynx,"Sneezing, Lethargy, Coughing",Kidney Disease,60,219,25,38.9,Indoor,80,High,Respiratory Infection,"Allergies, Stress","Wet food, Hydration",Yes
+402,9,3.7,Siamese,"Difficulty Breathing, Vomiting",Heart Condition,70,191,31,40.0,Outdoor,82,Severe,Gastrointestinal Issue,"Age-related, Dehydration",Renal Support Diet,Yes
+403,1,3.4,Sphynx,"Weight Loss, Vomiting",Arthritis,55,219,39,39.5,Indoor,78,High,Diabetes,Dust,High-protein Diet,Yes
+404,4,3.8,Siamese,None,Kidney Disease,64,140,28,38.6,Both,46,Moderate,Kidney Failure,"Dehydration, Poor Diet",High-protein Diet,No
+405,12,3.9,Bengal,"Loss of Appetite, Vomiting",Kidney Disease,75,155,21,37.9,Outdoor,88,Severe,Heart Disease,Dust,High-protein Diet,Yes
+406,1,4.4,Sphynx,None,Obesity,54,207,29,39.1,Indoor,66,High,Respiratory Infection,"N/A, Stress",Low-sodium Diet,Yes
+407,15,4.6,Maine Coon,Coughing,Heart Condition,45,194,40,38.6,Outdoor,65,High,Respiratory Infection,N/A,Renal Support Diet,Yes
+408,3,3.5,Persian,"Lethargy, Coughing, Loss of Appetite",Kidney Disease,68,154,30,39.5,Outdoor,2,Low,Healthy,N/A,Renal Support Diet,No
+409,14,4.9,Sphynx,"Lethargy, Vomiting",None,74,202,20,39.6,Outdoor,84,Severe,Respiratory Infection,Age-related,"Wet food, Hydration",Yes
+410,6,5.4,British Shorthair,Difficulty Breathing,None,54,164,22,37.7,Both,2,Low,Healthy,N/A,High-protein Diet,No
+411,1,3.9,British Shorthair,None,None,46,142,35,39.2,Outdoor,96,Severe,Heart Disease,Dehydration,High-protein Diet,Yes
+412,4,6.6,Siamese,"Coughing, Difficulty Breathing, Loss of Appetite",Arthritis,57,198,35,39.7,Outdoor,40,Moderate,Diabetes,"Poor Diet, Dehydration",Renal Support Diet,No
+413,10,3.8,Sphynx,Weight Loss,Obesity,48,184,24,39.6,Both,65,High,Heart Disease,Poor Diet,High-protein Diet,Yes
+414,9,3.5,Sphynx,"Vomiting, Difficulty Breathing",Arthritis,49,166,26,39.5,Outdoor,6,Low,Healthy,N/A,High-protein Diet,No
+415,11,4.9,Scottish Fold,Coughing,Kidney Disease,67,177,36,38.5,Both,41,Moderate,Kidney Failure,"Allergies, Age-related",Low-sodium Diet,No
+416,12,4.3,Sphynx,None,None,60,143,35,37.5,Indoor,18,Low,Healthy,N/A,Diabetic-friendly Diet,No
+417,10,4.2,Sphynx,"None, Sneezing, Coughing",Obesity,51,141,22,39.2,Indoor,100,Severe,Diabetes,"Stress, Age-related",Low-sodium Diet,Yes
+418,2,4.6,British Shorthair,"Sneezing, Vomiting",Kidney Disease,75,172,20,38.7,Indoor,7,Low,Healthy,N/A,"Wet food, Hydration",No
+419,1,4.8,Maine Coon,None,None,67,186,22,38.3,Both,29,Moderate,Kidney Failure,"Dehydration, Stress",High-protein Diet,No
+420,2,3.6,Scottish Fold,None,Kidney Disease,75,143,38,37.7,Both,9,Low,Healthy,N/A,Balanced Diet,No
+421,8,2.8,Scottish Fold,"Coughing, Weight Loss",Obesity,48,141,40,39.9,Outdoor,12,Low,Healthy,N/A,High-protein Diet,No
+422,13,3.8,Scottish Fold,"Weight Loss, Sneezing, Difficulty Breathing",Diabetes,50,170,33,37.8,Outdoor,5,Low,Healthy,N/A,Low-sodium Diet,No
+423,2,6.1,Ragdoll,"Loss of Appetite, Weight Loss",None,65,199,34,37.5,Both,36,Moderate,Diabetes,Genetic,Renal Support Diet,No
+424,15,6.8,British Shorthair,"Sneezing, Loss of Appetite",None,63,208,31,38.0,Both,96,Severe,Diabetes,"Poor Diet, Dehydration",Renal Support Diet,Yes
+425,12,6.2,Bengal,None,None,52,160,26,38.7,Outdoor,39,Moderate,Diabetes,"Genetic, Age-related","Wet food, Hydration",No
+426,3,4.3,Maine Coon,Lethargy,Obesity,59,209,32,38.1,Indoor,72,High,Obesity,"N/A, Poor Diet",Balanced Diet,Yes
+427,3,3.7,Maine Coon,Weight Loss,Arthritis,72,152,21,39.4,Both,19,Low,Healthy,N/A,Renal Support Diet,No
+428,15,4.4,British Shorthair,"Weight Loss, Vomiting",Obesity,74,149,27,38.3,Both,59,High,Respiratory Infection,Age-related,Diabetic-friendly Diet,Yes
+429,14,5.8,Maine Coon,Weight Loss,Kidney Disease,73,159,34,38.8,Outdoor,44,Moderate,Heart Disease,"N/A, Allergies",High-protein Diet,No
+430,10,5.6,Maine Coon,"Sneezing, Lethargy, Coughing",None,70,181,23,37.8,Outdoor,42,Moderate,Diabetes,Dust,Diabetic-friendly Diet,No
+431,11,2.8,British Shorthair,"Vomiting, Loss of Appetite",Obesity,62,217,26,38.5,Indoor,43,Moderate,Heart Disease,"Allergies, Dehydration","Wet food, Hydration",No
+432,9,2.7,Bengal,"None, Coughing",Kidney Disease,75,178,26,37.5,Both,5,Low,Healthy,N/A,Renal Support Diet,No
+433,12,4.2,Persian,"Vomiting, Difficulty Breathing, None",Arthritis,57,207,21,38.8,Outdoor,100,Severe,Diabetes,Poor Diet,Renal Support Diet,Yes
+434,15,5.0,Scottish Fold,"Sneezing, Lethargy",None,49,180,30,39.8,Both,30,Moderate,Obesity,Age-related,Balanced Diet,No
+435,6,6.5,Siamese,None,Arthritis,67,176,31,38.6,Outdoor,40,Moderate,Diabetes,"Allergies, Dehydration",High-protein Diet,No
+436,7,6.9,Scottish Fold,Coughing,Obesity,63,207,23,37.8,Outdoor,40,Moderate,Healthy,N/A,Low-sodium Diet,No
+437,15,5.6,Maine Coon,"Coughing, Difficulty Breathing",Kidney Disease,60,208,27,37.6,Outdoor,18,Low,Healthy,N/A,Renal Support Diet,No
+438,2,6.4,Persian,None,None,57,204,21,39.7,Indoor,53,High,Gastrointestinal Issue,"Genetic, Age-related",Low-sodium Diet,Yes
+439,4,2.8,Sphynx,Lethargy,Diabetes,57,144,21,38.6,Both,41,Moderate,Diabetes,Stress,Balanced Diet,No
+440,14,3.1,Persian,"Sneezing, Lethargy, Loss of Appetite",Arthritis,52,201,38,39.0,Outdoor,49,Moderate,Obesity,"Allergies, Age-related",High-protein Diet,No
+441,13,6.7,Maine Coon,None,Arthritis,53,191,32,39.2,Both,74,High,Respiratory Infection,Dehydration,"Wet food, Hydration",Yes
+442,9,6.7,Bengal,"Difficulty Breathing, Vomiting, Sneezing",Obesity,62,167,21,37.6,Both,96,Severe,Respiratory Infection,"Dust, N/A",Low-sodium Diet,Yes
+443,7,6.5,Siamese,"Weight Loss, Coughing",None,65,214,36,38.8,Indoor,74,High,Gastrointestinal Issue,"Age-related, Stress","Wet food, Hydration",Yes
+444,8,3.4,Maine Coon,"Coughing, Difficulty Breathing",Kidney Disease,74,167,25,39.1,Indoor,33,Moderate,Respiratory Infection,"Genetic, Age-related","Wet food, Hydration",No
+445,15,6.6,Maine Coon,Weight Loss,Kidney Disease,66,145,35,38.5,Outdoor,61,High,Obesity,"Dehydration, Poor Diet","Wet food, Hydration",Yes
+446,2,5.6,British Shorthair,"None, Weight Loss",Kidney Disease,52,205,33,37.5,Outdoor,54,High,Diabetes,Poor Diet,Diabetic-friendly Diet,Yes
+447,15,5.9,Siamese,None,Heart Condition,71,193,31,39.4,Indoor,76,High,Obesity,"Allergies, Stress","Wet food, Hydration",Yes
+448,11,6.4,Sphynx,"Vomiting, Weight Loss",Obesity,60,182,34,38.1,Indoor,81,Severe,Diabetes,Poor Diet,"Wet food, Hydration",Yes
+449,14,6.9,Scottish Fold,"Vomiting, Loss of Appetite, Sneezing",Diabetes,63,181,34,38.0,Both,56,High,Kidney Failure,"Poor Diet, Genetic","Wet food, Hydration",Yes
+450,3,3.0,Ragdoll,"Coughing, Sneezing, Lethargy",None,52,167,30,39.3,Outdoor,35,Moderate,Gastrointestinal Issue,Stress,"Wet food, Hydration",No
+451,4,6.7,Ragdoll,"Loss of Appetite, Weight Loss",None,47,183,21,39.8,Both,64,High,Gastrointestinal Issue,"Allergies, Age-related",Balanced Diet,Yes
+452,4,3.9,Scottish Fold,"None, Loss of Appetite, Vomiting",Diabetes,49,201,24,39.0,Indoor,93,Severe,Diabetes,"Age-related, Poor Diet",Diabetic-friendly Diet,Yes
+453,4,3.6,Siamese,"Coughing, Lethargy",None,49,181,38,39.2,Outdoor,82,Severe,Kidney Failure,"Allergies, Stress",Diabetic-friendly Diet,Yes
+454,9,5.5,Persian,Weight Loss,None,55,162,26,39.5,Indoor,4,Low,Healthy,N/A,Diabetic-friendly Diet,No
+455,11,4.6,Scottish Fold,Coughing,Obesity,66,204,35,39.4,Indoor,17,Low,Healthy,N/A,"Wet food, Hydration",No
+456,12,3.0,Bengal,"Loss of Appetite, Lethargy, Difficulty Breathing",Obesity,45,220,23,39.9,Both,75,High,Respiratory Infection,"Dust, Stress",Diabetic-friendly Diet,Yes
+457,3,3.1,Scottish Fold,"Loss of Appetite, Lethargy",Obesity,69,192,32,38.4,Outdoor,6,Low,Healthy,N/A,Renal Support Diet,No
+458,1,2.6,Siamese,"Sneezing, Lethargy, Difficulty Breathing",Arthritis,68,199,34,37.8,Both,96,Severe,Obesity,"Poor Diet, Age-related",Low-sodium Diet,Yes
+459,10,6.0,Ragdoll,"Weight Loss, Loss of Appetite, Difficulty Breathing",Diabetes,62,208,21,38.6,Outdoor,50,Moderate,Respiratory Infection,Age-related,"Wet food, Hydration",No
+460,3,3.6,Sphynx,"Loss of Appetite, Lethargy",None,53,170,35,37.6,Indoor,62,High,Heart Disease,"Poor Diet, Stress",Diabetic-friendly Diet,Yes
+461,7,7.0,Sphynx,"Vomiting, Weight Loss",Obesity,62,188,24,38.5,Indoor,79,High,Diabetes,Allergies,Low-sodium Diet,Yes
+462,4,4.6,Ragdoll,"Difficulty Breathing, Weight Loss",None,48,218,39,38.7,Indoor,35,Moderate,Respiratory Infection,"Age-related, Poor Diet",Diabetic-friendly Diet,No
+463,9,5.0,Persian,None,Obesity,74,161,23,38.3,Both,89,Severe,Heart Disease,"Poor Diet, Dust",Diabetic-friendly Diet,Yes
+464,3,5.1,British Shorthair,Coughing,Kidney Disease,47,182,24,38.0,Both,81,Severe,Heart Disease,Poor Diet,Balanced Diet,Yes
+465,2,3.7,Scottish Fold,"Sneezing, Lethargy, Difficulty Breathing",Obesity,71,181,22,39.2,Outdoor,46,Moderate,Heart Disease,Stress,Renal Support Diet,No
+466,9,6.2,Scottish Fold,None,Diabetes,52,190,21,38.2,Indoor,71,High,Diabetes,Allergies,Renal Support Diet,Yes
+467,14,2.9,Persian,Vomiting,None,61,140,31,37.6,Outdoor,7,Low,Healthy,N/A,"Wet food, Hydration",No
+468,1,4.9,Siamese,None,Diabetes,49,205,38,37.6,Outdoor,14,Low,Healthy,N/A,Diabetic-friendly Diet,No
+469,7,6.9,Bengal,None,None,47,208,40,38.8,Both,56,High,Heart Disease,Genetic,Renal Support Diet,Yes
+470,1,5.0,Maine Coon,"Coughing, Sneezing",Obesity,67,217,37,38.3,Outdoor,41,Moderate,Obesity,"Poor Diet, Dehydration","Wet food, Hydration",No
+471,7,3.9,Sphynx,"Loss of Appetite, Lethargy",Diabetes,51,179,24,38.3,Both,77,High,Healthy,N/A,"Wet food, Hydration",Yes
+472,3,4.8,Maine Coon,None,Arthritis,57,168,36,38.3,Both,23,Moderate,Kidney Failure,"Genetic, Age-related",Low-sodium Diet,No
+473,12,3.9,Sphynx,Loss of Appetite,Obesity,51,196,29,38.9,Outdoor,86,Severe,Kidney Failure,"Dust, N/A",Low-sodium Diet,Yes
+474,4,4.2,Ragdoll,"Sneezing, Weight Loss, Coughing",Arthritis,69,174,32,37.5,Outdoor,6,Low,Healthy,N/A,Low-sodium Diet,No
+475,4,4.2,Bengal,"Coughing, None, Sneezing",Kidney Disease,69,195,24,37.7,Indoor,96,Severe,Healthy,N/A,"Wet food, Hydration",Yes
+476,14,3.2,Persian,"Lethargy, Loss of Appetite",Kidney Disease,70,176,36,39.1,Both,38,Moderate,Gastrointestinal Issue,Poor Diet,"Wet food, Hydration",No
+477,4,6.0,British Shorthair,None,None,60,189,38,39.4,Both,41,Moderate,Respiratory Infection,Age-related,"Wet food, Hydration",No
+478,4,6.2,Maine Coon,Loss of Appetite,Diabetes,57,165,35,38.8,Indoor,1,Low,Healthy,N/A,High-protein Diet,No
+479,15,2.7,Bengal,Lethargy,Obesity,64,213,23,39.6,Indoor,88,Severe,Kidney Failure,"Genetic, Dust",Balanced Diet,Yes
+480,15,4.1,Scottish Fold,Lethargy,None,48,214,32,39.8,Both,96,Severe,Obesity,"Dehydration, N/A",Diabetic-friendly Diet,Yes
+481,12,4.9,Bengal,"Vomiting, Sneezing, Difficulty Breathing",None,64,215,33,39.2,Outdoor,36,Moderate,Obesity,"Poor Diet, Dust",Renal Support Diet,No
+482,5,5.5,Sphynx,"None, Coughing, Weight Loss",None,47,148,26,39.8,Both,85,Severe,Diabetes,Dust,Low-sodium Diet,Yes
+483,12,6.8,Bengal,Vomiting,Kidney Disease,56,140,32,38.1,Outdoor,62,High,Heart Disease,"Genetic, Stress",Diabetic-friendly Diet,Yes
+484,11,4.7,Siamese,None,Heart Condition,48,158,24,39.8,Both,90,Severe,Gastrointestinal Issue,"Age-related, Allergies",Low-sodium Diet,Yes
+485,15,4.3,British Shorthair,"Weight Loss, Loss of Appetite",Diabetes,50,208,22,37.9,Outdoor,12,Low,Healthy,N/A,Low-sodium Diet,No
+486,4,5.4,Maine Coon,None,Obesity,55,202,20,38.3,Outdoor,97,Severe,Respiratory Infection,"N/A, Age-related",Low-sodium Diet,Yes
+487,6,5.3,Scottish Fold,"None, Difficulty Breathing, Vomiting",Kidney Disease,71,178,36,39.1,Both,64,High,Gastrointestinal Issue,"N/A, Genetic",High-protein Diet,Yes
+488,14,5.4,Bengal,"Lethargy, Sneezing, Vomiting",None,60,179,27,37.6,Both,65,High,Obesity,"Dehydration, Dust","Wet food, Hydration",Yes
+489,11,4.7,British Shorthair,"Loss of Appetite, Coughing",Diabetes,63,163,34,40.0,Both,77,High,Heart Disease,Stress,"Wet food, Hydration",Yes
+490,14,2.7,Scottish Fold,"None, Weight Loss",Obesity,52,188,21,39.6,Outdoor,14,Low,Healthy,N/A,Diabetic-friendly Diet,No
+491,10,4.1,Maine Coon,Sneezing,Kidney Disease,62,197,34,39.2,Both,48,Moderate,Obesity,"Genetic, Poor Diet",High-protein Diet,No
+492,12,2.7,Persian,Vomiting,Obesity,62,189,33,38.3,Both,79,High,Heart Disease,Stress,Renal Support Diet,Yes
+493,14,5.8,Siamese,"Sneezing, Coughing, None",Obesity,59,209,39,39.4,Outdoor,65,High,Diabetes,Age-related,"Wet food, Hydration",Yes
+494,15,2.5,Scottish Fold,Coughing,Diabetes,55,180,40,39.5,Indoor,13,Low,Healthy,N/A,Renal Support Diet,No
+495,7,7.0,Scottish Fold,None,None,72,151,30,38.8,Indoor,70,High,Healthy,N/A,Balanced Diet,Yes
+496,3,2.8,Maine Coon,None,Kidney Disease,71,145,36,38.4,Indoor,84,Severe,Obesity,"Stress, Dust",Renal Support Diet,Yes
+497,15,4.4,Sphynx,None,None,72,210,39,38.3,Outdoor,87,Severe,Obesity,"Genetic, Poor Diet",Renal Support Diet,Yes
+498,7,3.6,Maine Coon,"Weight Loss, Coughing",None,66,202,24,38.8,Outdoor,91,Severe,Gastrointestinal Issue,Stress,High-protein Diet,Yes
+499,5,4.2,Siamese,"Vomiting, None, Coughing",Diabetes,46,176,39,38.5,Both,86,Severe,Healthy,N/A,Renal Support Diet,Yes
+500,1,5.0,Maine Coon,"Difficulty Breathing, None, Sneezing",Heart Condition,68,198,23,38.9,Outdoor,47,Moderate,Respiratory Infection,"N/A, Dehydration",Diabetic-friendly Diet,No
+501,7,5.9,Bengal,Weight Loss,Arthritis,58,177,39,38.1,Indoor,23,Moderate,Obesity,Poor Diet,High-protein Diet,No
+502,14,6.7,Siamese,Vomiting,Heart Condition,59,156,37,38.6,Both,21,Moderate,Diabetes,Poor Diet,Low-sodium Diet,No
+503,9,6.2,Scottish Fold,None,Obesity,62,146,29,38.8,Outdoor,37,Moderate,Respiratory Infection,Dust,Renal Support Diet,No
+504,1,4.0,Ragdoll,Loss of Appetite,None,48,157,27,39.8,Indoor,56,High,Heart Disease,"Allergies, Dust",Renal Support Diet,Yes
+505,6,6.5,British Shorthair,"Difficulty Breathing, Sneezing",Kidney Disease,69,190,40,39.3,Both,25,Moderate,Gastrointestinal Issue,"Genetic, Dehydration",Balanced Diet,No
+506,12,3.5,Scottish Fold,None,Kidney Disease,50,157,20,39.0,Indoor,10,Low,Healthy,N/A,Balanced Diet,No
+507,7,6.7,Scottish Fold,None,Obesity,74,156,40,39.5,Outdoor,71,High,Diabetes,Dehydration,Renal Support Diet,Yes
+508,15,3.9,Maine Coon,None,Heart Condition,67,146,37,39.5,Outdoor,61,High,Obesity,Stress,Low-sodium Diet,Yes
+509,4,3.8,Maine Coon,None,Heart Condition,66,207,36,38.2,Both,57,High,Respiratory Infection,Dust,Balanced Diet,Yes
+510,3,3.5,British Shorthair,"Difficulty Breathing, Vomiting",Arthritis,71,147,28,39.0,Outdoor,75,High,Obesity,Poor Diet,"Wet food, Hydration",Yes
+511,14,3.8,British Shorthair,None,Kidney Disease,69,218,35,39.1,Indoor,66,High,Respiratory Infection,Age-related,Balanced Diet,Yes
+512,11,6.6,Bengal,None,Kidney Disease,50,198,38,38.0,Indoor,3,Low,Healthy,N/A,High-protein Diet,No
+513,12,4.8,Scottish Fold,"Difficulty Breathing, Vomiting, Lethargy",Arthritis,72,175,36,38.0,Both,3,Low,Healthy,N/A,Diabetic-friendly Diet,No
+514,7,4.8,Sphynx,None,Arthritis,65,167,23,37.7,Both,11,Low,Healthy,N/A,High-protein Diet,No
+515,15,5.1,Ragdoll,"Sneezing, Loss of Appetite",Kidney Disease,46,212,21,39.8,Outdoor,0,Low,Healthy,N/A,"Wet food, Hydration",No
+516,8,5.9,British Shorthair,Coughing,Obesity,54,188,35,39.0,Both,72,High,Obesity,"Poor Diet, Age-related",Low-sodium Diet,Yes
+517,3,5.3,Sphynx,"Coughing, Weight Loss",Kidney Disease,66,153,40,39.9,Outdoor,44,Moderate,Diabetes,"Genetic, Allergies",Renal Support Diet,No
+518,14,3.9,Bengal,None,Kidney Disease,46,151,38,39.8,Outdoor,44,Moderate,Gastrointestinal Issue,"Age-related, Dust",Low-sodium Diet,No
+519,1,4.4,Persian,"Lethargy, None",Obesity,53,186,21,39.0,Indoor,53,High,Obesity,Dust,High-protein Diet,Yes
+520,9,3.1,Maine Coon,Lethargy,Obesity,72,156,28,38.4,Both,10,Low,Healthy,N/A,Renal Support Diet,No
+521,15,4.1,Scottish Fold,"Weight Loss, Coughing, Lethargy",Kidney Disease,67,141,39,37.6,Indoor,12,Low,Healthy,N/A,Balanced Diet,No
+522,2,4.7,Bengal,None,Kidney Disease,68,211,29,39.5,Indoor,74,High,Respiratory Infection,"Genetic, Stress",Diabetic-friendly Diet,Yes
+523,6,6.6,Maine Coon,None,Arthritis,70,177,39,37.7,Both,12,Low,Healthy,N/A,Low-sodium Diet,No
+524,4,5.4,Siamese,None,Diabetes,51,158,40,39.5,Outdoor,37,Moderate,Obesity,"Poor Diet, Allergies",High-protein Diet,No
+525,5,5.5,Ragdoll,"None, Vomiting, Difficulty Breathing",None,62,210,26,38.0,Indoor,58,High,Kidney Failure,"Dehydration, Age-related","Wet food, Hydration",Yes
+526,11,3.3,Ragdoll,"Weight Loss, None, Loss of Appetite",None,74,203,28,39.2,Both,11,Low,Healthy,N/A,"Wet food, Hydration",No
+527,15,5.5,Ragdoll,"Weight Loss, Coughing",Kidney Disease,45,160,40,38.9,Both,37,Moderate,Kidney Failure,"Poor Diet, Dehydration","Wet food, Hydration",No
+528,10,5.5,British Shorthair,"Lethargy, Weight Loss",Diabetes,47,150,32,38.0,Both,15,Low,Healthy,N/A,High-protein Diet,No
+529,12,5.7,Maine Coon,Lethargy,Arthritis,74,160,23,37.8,Indoor,8,Low,Healthy,N/A,High-protein Diet,No
+530,13,4.3,Sphynx,None,Heart Condition,68,203,20,39.0,Indoor,88,Severe,Kidney Failure,"Allergies, Stress",Renal Support Diet,Yes
+531,15,4.6,British Shorthair,Sneezing,Heart Condition,69,182,31,38.1,Outdoor,60,High,Obesity,N/A,"Wet food, Hydration",Yes
+532,2,3.8,Siamese,"Weight Loss, Loss of Appetite, Sneezing",None,63,214,20,38.4,Both,70,High,Healthy,N/A,"Wet food, Hydration",Yes
+533,14,5.2,Ragdoll,"Loss of Appetite, Lethargy",Diabetes,71,198,20,39.9,Indoor,71,High,Heart Disease,N/A,Diabetic-friendly Diet,Yes
+534,10,5.1,Ragdoll,"Sneezing, Coughing, Loss of Appetite",Obesity,63,143,39,38.3,Outdoor,2,Low,Healthy,N/A,Diabetic-friendly Diet,No
+535,3,3.9,Sphynx,"None, Loss of Appetite, Weight Loss",None,62,185,21,39.9,Both,71,High,Healthy,N/A,Renal Support Diet,Yes
+536,2,3.6,Sphynx,None,Kidney Disease,54,220,35,39.7,Both,21,Moderate,Gastrointestinal Issue,"Age-related, N/A",Balanced Diet,No
+537,10,6.0,Maine Coon,Difficulty Breathing,Obesity,73,209,24,40.0,Both,46,Moderate,Heart Disease,"N/A, Poor Diet","Wet food, Hydration",No
+538,11,5.2,Siamese,Weight Loss,Obesity,52,216,31,37.7,Outdoor,85,Severe,Diabetes,"Poor Diet, Allergies",High-protein Diet,Yes
+539,13,4.1,British Shorthair,None,None,46,185,39,39.7,Both,61,High,Obesity,"Dust, Allergies","Wet food, Hydration",Yes
+540,8,7.0,Scottish Fold,"Difficulty Breathing, Weight Loss",Diabetes,72,192,36,38.1,Indoor,44,Moderate,Healthy,N/A,Low-sodium Diet,No
+541,4,3.7,Siamese,"Weight Loss, Sneezing, None",Kidney Disease,56,205,27,39.2,Indoor,18,Low,Healthy,N/A,Renal Support Diet,No
+542,9,3.8,Siamese,Coughing,Arthritis,73,149,31,39.6,Indoor,44,Moderate,Obesity,"Dehydration, Allergies","Wet food, Hydration",No
+543,11,5.7,Bengal,"Loss of Appetite, Lethargy, Coughing",Obesity,49,163,31,39.3,Indoor,85,Severe,Healthy,N/A,Diabetic-friendly Diet,Yes
+544,14,3.6,Ragdoll,"None, Difficulty Breathing, Vomiting",Diabetes,59,202,31,38.0,Outdoor,41,Moderate,Respiratory Infection,"N/A, Allergies",High-protein Diet,No
+545,11,6.8,Bengal,"Weight Loss, Sneezing, Vomiting",Diabetes,50,142,39,39.8,Both,50,Moderate,Diabetes,"Allergies, Dust",Low-sodium Diet,No
+546,10,6.8,Maine Coon,"Coughing, None",Heart Condition,70,174,24,37.6,Outdoor,42,Moderate,Respiratory Infection,"Dehydration, Genetic",Low-sodium Diet,No
+547,14,4.0,Maine Coon,"Lethargy, Vomiting, Difficulty Breathing",None,64,168,26,38.8,Both,11,Low,Healthy,N/A,Balanced Diet,No
+548,11,4.0,British Shorthair,"Sneezing, Loss of Appetite, Weight Loss",None,72,201,35,39.0,Indoor,9,Low,Healthy,N/A,"Wet food, Hydration",No
+549,5,3.3,Persian,None,Arthritis,66,201,33,38.0,Both,82,Severe,Respiratory Infection,"Genetic, Stress",Balanced Diet,Yes
+550,5,6.1,Bengal,None,Heart Condition,75,202,28,37.7,Indoor,42,Moderate,Obesity,"Dust, Dehydration",Balanced Diet,No
+551,14,5.7,Persian,"None, Lethargy",Arthritis,66,158,22,39.5,Both,17,Low,Healthy,N/A,Renal Support Diet,No
+552,13,3.2,Siamese,None,Heart Condition,60,160,28,39.4,Both,17,Low,Healthy,N/A,Renal Support Diet,No
+553,7,6.5,Persian,Coughing,Arthritis,68,212,23,38.2,Outdoor,5,Low,Healthy,N/A,"Wet food, Hydration",No
+554,4,4.1,Ragdoll,"Vomiting, Difficulty Breathing",Kidney Disease,74,194,31,38.5,Indoor,44,Moderate,Healthy,N/A,Balanced Diet,No
+555,14,4.5,Sphynx,None,Kidney Disease,73,165,40,38.4,Indoor,29,Moderate,Gastrointestinal Issue,"Dehydration, Genetic",Balanced Diet,No
+556,1,4.7,Scottish Fold,None,Diabetes,52,193,27,37.6,Both,54,High,Kidney Failure,"Genetic, Dehydration",Diabetic-friendly Diet,Yes
+557,8,3.9,Scottish Fold,"Sneezing, Lethargy, Coughing",Heart Condition,69,167,34,38.9,Outdoor,94,Severe,Heart Disease,Dust,High-protein Diet,Yes
+558,9,6.7,Bengal,Difficulty Breathing,Diabetes,71,211,32,39.8,Indoor,82,Severe,Heart Disease,"Genetic, Age-related","Wet food, Hydration",Yes
+559,5,4.5,Bengal,"Loss of Appetite, Difficulty Breathing",Arthritis,58,143,38,39.9,Indoor,56,High,Kidney Failure,N/A,"Wet food, Hydration",Yes
+560,6,4.0,Persian,"Difficulty Breathing, Vomiting",Kidney Disease,67,155,21,38.4,Indoor,36,Moderate,Diabetes,Allergies,Renal Support Diet,No
+561,7,6.5,British Shorthair,None,None,48,170,22,38.2,Outdoor,43,Moderate,Healthy,N/A,High-protein Diet,No
+562,3,3.5,Scottish Fold,"Sneezing, Coughing, Difficulty Breathing",None,62,146,20,38.1,Outdoor,17,Low,Healthy,N/A,Balanced Diet,No
+563,7,7.0,Bengal,"Coughing, Loss of Appetite, Lethargy",Kidney Disease,68,176,26,39.6,Both,46,Moderate,Kidney Failure,"N/A, Poor Diet","Wet food, Hydration",No
+564,1,4.6,Siamese,"Coughing, Lethargy",None,50,210,28,39.0,Indoor,61,High,Gastrointestinal Issue,Poor Diet,High-protein Diet,Yes
+565,1,6.7,British Shorthair,None,Obesity,60,175,22,38.9,Indoor,99,Severe,Obesity,"Age-related, N/A",Balanced Diet,Yes
+566,13,4.3,British Shorthair,"Sneezing, Coughing",Heart Condition,67,177,33,39.4,Indoor,75,High,Kidney Failure,"Poor Diet, Dehydration",Renal Support Diet,Yes
+567,15,5.1,Persian,"Coughing, Lethargy, Loss of Appetite",Heart Condition,53,151,33,39.3,Indoor,59,High,Respiratory Infection,Dehydration,Low-sodium Diet,Yes
+568,1,2.5,Scottish Fold,"Difficulty Breathing, Vomiting",Kidney Disease,53,189,33,39.1,Outdoor,76,High,Kidney Failure,Genetic,Balanced Diet,Yes
+569,5,2.6,Ragdoll,None,None,54,207,26,40.0,Indoor,9,Low,Healthy,N/A,Balanced Diet,No
+570,2,5.1,Persian,None,None,73,156,26,39.2,Outdoor,30,Moderate,Respiratory Infection,N/A,Diabetic-friendly Diet,No
+571,3,4.9,Scottish Fold,"Vomiting, None, Lethargy",Arthritis,74,141,20,39.4,Indoor,45,Moderate,Respiratory Infection,Dust,Low-sodium Diet,No
+572,1,6.4,Bengal,None,Heart Condition,46,207,38,37.6,Both,32,Moderate,Kidney Failure,Stress,Renal Support Diet,No
+573,15,4.6,British Shorthair,None,Diabetes,70,188,27,38.4,Both,64,High,Obesity,"Dehydration, Stress",Balanced Diet,Yes
+574,11,6.3,Maine Coon,"None, Loss of Appetite, Coughing",Diabetes,57,190,30,38.5,Outdoor,31,Moderate,Diabetes,"N/A, Poor Diet",Low-sodium Diet,No
+575,12,2.7,Bengal,"Weight Loss, Difficulty Breathing, Coughing",Kidney Disease,45,185,26,39.6,Indoor,38,Moderate,Gastrointestinal Issue,Genetic,High-protein Diet,No
+576,8,2.5,Siamese,None,Heart Condition,58,169,29,37.6,Outdoor,36,Moderate,Obesity,"Poor Diet, Allergies","Wet food, Hydration",No
+577,10,5.2,Scottish Fold,"Sneezing, Loss of Appetite",Arthritis,52,157,29,39.7,Outdoor,52,High,Diabetes,Age-related,High-protein Diet,Yes
+578,10,3.6,Bengal,"Sneezing, Weight Loss",Heart Condition,59,155,35,39.7,Both,0,Low,Healthy,N/A,"Wet food, Hydration",No
+579,13,5.2,Ragdoll,None,Kidney Disease,62,152,32,38.0,Both,21,Moderate,Kidney Failure,Stress,Diabetic-friendly Diet,No
+580,4,4.5,Sphynx,Vomiting,Diabetes,67,140,28,38.6,Both,100,Severe,Respiratory Infection,Allergies,"Wet food, Hydration",Yes
+581,2,4.6,Maine Coon,Sneezing,Diabetes,57,194,31,39.4,Indoor,52,High,Kidney Failure,Genetic,Balanced Diet,Yes
+582,3,2.5,Siamese,Loss of Appetite,None,57,184,34,39.3,Outdoor,98,Severe,Respiratory Infection,"Allergies, Genetic",Diabetic-friendly Diet,Yes
+583,15,4.4,Sphynx,Sneezing,None,61,158,25,38.7,Both,83,Severe,Healthy,N/A,"Wet food, Hydration",Yes
+584,9,6.3,Bengal,None,Kidney Disease,66,216,26,38.7,Indoor,99,Severe,Obesity,"Dehydration, Genetic",Diabetic-friendly Diet,Yes
+585,7,3.9,Bengal,"None, Vomiting, Coughing",Kidney Disease,62,166,23,39.4,Outdoor,2,Low,Healthy,N/A,Balanced Diet,No
+586,8,6.4,Sphynx,Lethargy,Arthritis,70,197,23,40.0,Outdoor,38,Moderate,Obesity,Stress,Renal Support Diet,No
+587,5,3.7,Sphynx,Loss of Appetite,Arthritis,75,175,25,39.6,Both,2,Low,Healthy,N/A,Renal Support Diet,No
+588,3,6.2,Siamese,None,Arthritis,50,179,26,39.0,Outdoor,77,High,Diabetes,"Dehydration, Poor Diet",Balanced Diet,Yes
+589,3,2.5,Scottish Fold,Coughing,Obesity,57,154,22,39.0,Both,91,Severe,Healthy,N/A,High-protein Diet,Yes
+590,12,4.5,Sphynx,"Sneezing, Difficulty Breathing, None",Kidney Disease,73,207,32,39.2,Both,26,Moderate,Kidney Failure,Stress,Renal Support Diet,No
+591,12,5.2,Scottish Fold,Lethargy,Heart Condition,61,186,40,38.6,Indoor,94,Severe,Heart Disease,"N/A, Dehydration","Wet food, Hydration",Yes
+592,7,2.6,Bengal,"Coughing, Loss of Appetite, Vomiting",Heart Condition,66,192,20,39.1,Indoor,21,Moderate,Diabetes,Age-related,Diabetic-friendly Diet,No
+593,2,5.5,Bengal,None,None,75,196,32,38.4,Both,15,Low,Healthy,N/A,Balanced Diet,No
+594,7,2.9,Bengal,None,Arthritis,66,189,37,38.0,Both,25,Moderate,Gastrointestinal Issue,"Genetic, Allergies",Balanced Diet,No
+595,7,5.0,Persian,"Weight Loss, Sneezing",Heart Condition,60,141,39,38.7,Outdoor,95,Severe,Obesity,"Dehydration, Stress",Renal Support Diet,Yes
+596,13,4.1,British Shorthair,"Vomiting, Sneezing, Coughing",None,48,164,37,39.5,Both,58,High,Healthy,N/A,High-protein Diet,Yes
+597,11,6.0,Ragdoll,None,Obesity,68,166,29,38.5,Both,77,High,Kidney Failure,Allergies,Renal Support Diet,Yes
+598,3,4.7,Ragdoll,"None, Sneezing, Loss of Appetite",Obesity,65,169,27,38.0,Outdoor,36,Moderate,Respiratory Infection,"Allergies, Stress",Renal Support Diet,No
+599,2,4.4,Bengal,None,None,56,153,39,37.6,Indoor,74,High,Gastrointestinal Issue,"Stress, Allergies",Balanced Diet,Yes
+600,1,5.4,Maine Coon,None,Obesity,75,192,22,38.8,Both,25,Moderate,Diabetes,"Stress, Poor Diet",Renal Support Diet,No
+601,5,3.1,Sphynx,"Weight Loss, Coughing",Arthritis,67,189,31,39.3,Outdoor,9,Low,Healthy,N/A,Balanced Diet,No
+602,15,4.5,British Shorthair,"None, Weight Loss",Arthritis,71,220,34,37.7,Indoor,95,Severe,Heart Disease,Genetic,"Wet food, Hydration",Yes
+603,4,6.2,Bengal,"Difficulty Breathing, Weight Loss",Obesity,73,194,40,37.8,Both,51,High,Diabetes,"Poor Diet, N/A","Wet food, Hydration",Yes
+604,4,3.9,Maine Coon,"Difficulty Breathing, Coughing, Vomiting",Heart Condition,75,153,25,38.5,Indoor,56,High,Healthy,N/A,Low-sodium Diet,Yes
+605,4,5.9,Ragdoll,"Lethargy, None",Arthritis,68,194,30,38.5,Outdoor,89,Severe,Diabetes,"N/A, Allergies","Wet food, Hydration",Yes
+606,3,7.0,Bengal,Vomiting,Diabetes,71,145,30,39.4,Outdoor,16,Low,Healthy,N/A,Diabetic-friendly Diet,No
+607,2,4.9,Siamese,Difficulty Breathing,Arthritis,65,183,30,37.8,Outdoor,71,High,Gastrointestinal Issue,"Stress, Age-related",Diabetic-friendly Diet,Yes
+608,5,2.5,Siamese,Lethargy,None,70,162,31,39.9,Both,96,Severe,Heart Disease,"N/A, Dust",High-protein Diet,Yes
+609,6,3.1,British Shorthair,Loss of Appetite,Kidney Disease,62,174,22,39.1,Indoor,90,Severe,Gastrointestinal Issue,Dust,Low-sodium Diet,Yes
+610,9,3.3,Bengal,"Loss of Appetite, Sneezing",Arthritis,60,190,20,39.7,Both,84,Severe,Respiratory Infection,"Stress, N/A",Renal Support Diet,Yes
+611,10,5.7,Sphynx,"Vomiting, Loss of Appetite",Heart Condition,73,152,23,39.9,Outdoor,61,High,Kidney Failure,Age-related,High-protein Diet,Yes
+612,6,3.9,Scottish Fold,None,None,69,173,25,38.1,Both,41,Moderate,Healthy,N/A,Low-sodium Diet,No
+613,7,4.4,Siamese,"Weight Loss, Difficulty Breathing",None,58,153,29,39.7,Both,45,Moderate,Healthy,N/A,"Wet food, Hydration",No
+614,15,5.3,Scottish Fold,None,Obesity,59,206,38,37.6,Outdoor,13,Low,Healthy,N/A,Balanced Diet,No
+615,6,2.5,British Shorthair,Weight Loss,Kidney Disease,62,153,32,38.7,Outdoor,86,Severe,Respiratory Infection,"Genetic, Dehydration",Diabetic-friendly Diet,Yes
+616,8,4.3,Sphynx,"Weight Loss, Lethargy",Diabetes,65,213,26,38.0,Indoor,30,Moderate,Obesity,N/A,Renal Support Diet,No
+617,8,5.1,Siamese,None,Heart Condition,55,146,20,38.2,Outdoor,4,Low,Healthy,N/A,High-protein Diet,No
+618,5,2.8,Siamese,"Vomiting, Sneezing",Obesity,72,165,27,38.1,Indoor,96,Severe,Respiratory Infection,Genetic,"Wet food, Hydration",Yes
+619,4,5.9,Bengal,"Difficulty Breathing, Sneezing, Vomiting",Obesity,75,209,38,38.1,Outdoor,97,Severe,Respiratory Infection,"Allergies, N/A","Wet food, Hydration",Yes
+620,5,3.6,British Shorthair,"Difficulty Breathing, Coughing, Vomiting",Arthritis,65,211,33,39.0,Outdoor,23,Moderate,Gastrointestinal Issue,"Stress, Age-related",Balanced Diet,No
+621,10,4.8,Siamese,Vomiting,Arthritis,70,192,29,37.8,Outdoor,92,Severe,Kidney Failure,"Allergies, N/A",Low-sodium Diet,Yes
+622,14,3.8,Persian,"Coughing, Sneezing",None,48,207,23,39.7,Outdoor,6,Low,Healthy,N/A,Diabetic-friendly Diet,No
+623,15,3.6,Maine Coon,None,Arthritis,56,214,36,38.6,Both,84,Severe,Diabetes,Age-related,Diabetic-friendly Diet,Yes
+624,4,3.1,Persian,"Difficulty Breathing, Sneezing",Diabetes,70,206,33,38.5,Both,81,Severe,Diabetes,"Dust, Allergies",High-protein Diet,Yes
+625,8,4.9,Sphynx,Lethargy,Arthritis,66,216,22,39.9,Indoor,95,Severe,Heart Disease,Genetic,Balanced Diet,Yes
+626,8,4.0,Maine Coon,"Loss of Appetite, None, Sneezing",Obesity,47,170,30,38.3,Indoor,68,High,Respiratory Infection,Genetic,Renal Support Diet,Yes
+627,3,4.8,Bengal,"Coughing, Loss of Appetite",Diabetes,68,160,40,39.7,Indoor,22,Moderate,Respiratory Infection,N/A,Low-sodium Diet,No
+628,3,3.4,Bengal,"Coughing, Loss of Appetite, Vomiting",Heart Condition,62,158,22,40.0,Indoor,51,High,Obesity,"Allergies, Stress",Renal Support Diet,Yes
+629,13,6.2,Scottish Fold,"Weight Loss, Sneezing, Vomiting",Kidney Disease,72,169,36,37.8,Indoor,48,Moderate,Obesity,"Poor Diet, Allergies","Wet food, Hydration",No
+630,8,3.9,Bengal,None,Heart Condition,64,203,33,39.9,Outdoor,91,Severe,Heart Disease,Age-related,Low-sodium Diet,Yes
+631,5,4.2,Scottish Fold,"Difficulty Breathing, Lethargy, Coughing",None,47,155,22,39.1,Both,98,Severe,Obesity,Age-related,Diabetic-friendly Diet,Yes
+632,6,3.4,Persian,"Coughing, Lethargy, Vomiting",Arthritis,52,150,22,39.0,Outdoor,75,High,Heart Disease,"Dust, Stress",Balanced Diet,Yes
+633,8,3.0,Persian,None,None,45,180,33,38.4,Both,5,Low,Healthy,N/A,"Wet food, Hydration",No
+634,2,6.2,Maine Coon,None,Obesity,54,156,34,38.3,Outdoor,47,Moderate,Healthy,N/A,"Wet food, Hydration",No
+635,3,4.5,Scottish Fold,None,Obesity,58,144,22,39.1,Indoor,55,High,Respiratory Infection,Stress,High-protein Diet,Yes
+636,2,3.1,Scottish Fold,None,Obesity,52,187,21,37.9,Both,67,High,Healthy,N/A,Renal Support Diet,Yes
+637,6,6.4,Siamese,"Sneezing, None",None,59,219,20,38.7,Indoor,51,High,Gastrointestinal Issue,"Stress, Genetic",Low-sodium Diet,Yes
+638,8,4.8,Ragdoll,None,None,47,174,27,38.7,Outdoor,5,Low,Healthy,N/A,"Wet food, Hydration",No
+639,13,2.9,Ragdoll,Difficulty Breathing,Kidney Disease,74,174,33,38.9,Both,80,High,Respiratory Infection,"Dust, Allergies",Balanced Diet,Yes
+640,11,6.6,Persian,"Vomiting, Lethargy, Loss of Appetite",Kidney Disease,72,176,28,38.1,Outdoor,30,Moderate,Diabetes,Dehydration,High-protein Diet,No
+641,14,4.4,Maine Coon,None,Heart Condition,48,200,24,38.5,Both,61,High,Heart Disease,"Dust, N/A",Balanced Diet,Yes
+642,13,5.0,Bengal,"Vomiting, None",Heart Condition,56,151,39,39.2,Outdoor,96,Severe,Gastrointestinal Issue,"Age-related, Allergies",Diabetic-friendly Diet,Yes
+643,12,3.3,Persian,"Weight Loss, Sneezing, Difficulty Breathing",None,61,192,38,39.9,Indoor,34,Moderate,Diabetes,"Age-related, Dehydration",Renal Support Diet,No
+644,8,4.6,British Shorthair,"None, Vomiting",Kidney Disease,58,155,34,38.3,Indoor,48,Moderate,Gastrointestinal Issue,Genetic,Renal Support Diet,No
+645,14,3.6,Bengal,Loss of Appetite,Kidney Disease,57,187,40,38.2,Both,21,Moderate,Diabetes,"Genetic, Allergies",Diabetic-friendly Diet,No
+646,5,6.0,British Shorthair,"Weight Loss, Difficulty Breathing, Coughing",None,75,217,28,38.2,Both,89,Severe,Respiratory Infection,"Stress, Dehydration",Renal Support Diet,Yes
+647,9,2.9,Maine Coon,Difficulty Breathing,Kidney Disease,73,207,40,38.7,Both,44,Moderate,Gastrointestinal Issue,"Dehydration, N/A",Diabetic-friendly Diet,No
+648,4,3.2,Persian,None,Arthritis,56,213,27,38.0,Indoor,34,Moderate,Respiratory Infection,"Age-related, Dust",Diabetic-friendly Diet,No
+649,15,5.9,Persian,Sneezing,Arthritis,71,199,32,39.4,Indoor,94,Severe,Heart Disease,Poor Diet,Renal Support Diet,Yes
+650,1,4.6,Siamese,"Coughing, Difficulty Breathing",Diabetes,62,206,26,39.2,Outdoor,62,High,Diabetes,"Allergies, N/A",Balanced Diet,Yes
+651,3,6.6,Persian,None,Obesity,49,180,25,38.3,Outdoor,10,Low,Healthy,N/A,High-protein Diet,No
+652,6,2.7,Maine Coon,"Loss of Appetite, Coughing",Kidney Disease,47,216,30,38.8,Indoor,26,Moderate,Diabetes,"Genetic, Stress",Diabetic-friendly Diet,No
+653,9,6.4,British Shorthair,"Loss of Appetite, Lethargy",Obesity,58,164,28,39.3,Indoor,72,High,Diabetes,Dehydration,Renal Support Diet,Yes
+654,15,5.5,Sphynx,None,None,66,144,37,38.5,Indoor,96,Severe,Kidney Failure,"Allergies, Age-related","Wet food, Hydration",Yes
+655,15,4.8,Maine Coon,"Difficulty Breathing, None, Lethargy",Obesity,55,183,26,38.2,Outdoor,79,High,Obesity,"Dust, Allergies",Diabetic-friendly Diet,Yes
+656,14,5.6,Sphynx,"Vomiting, Sneezing",Arthritis,57,170,35,38.0,Outdoor,2,Low,Healthy,N/A,Low-sodium Diet,No
+657,7,3.1,Ragdoll,Loss of Appetite,Obesity,66,205,38,39.7,Indoor,60,High,Heart Disease,"Allergies, Dust",Balanced Diet,Yes
+658,5,6.4,Scottish Fold,Lethargy,Arthritis,62,202,25,38.1,Indoor,71,High,Diabetes,Poor Diet,Balanced Diet,Yes
+659,13,5.1,Scottish Fold,"Sneezing, Vomiting, Coughing",Heart Condition,55,171,35,39.8,Both,62,High,Kidney Failure,N/A,Renal Support Diet,Yes
+660,9,4.9,Siamese,None,Obesity,49,206,24,39.8,Outdoor,68,High,Diabetes,"Poor Diet, Dehydration",Balanced Diet,Yes
+661,14,6.6,Siamese,None,Diabetes,57,193,25,39.1,Outdoor,67,High,Obesity,Genetic,Diabetic-friendly Diet,Yes
+662,7,2.9,Sphynx,Loss of Appetite,Heart Condition,56,199,33,37.8,Indoor,45,Moderate,Kidney Failure,Genetic,Renal Support Diet,No
+663,11,5.1,Maine Coon,None,Heart Condition,62,162,29,39.7,Outdoor,61,High,Respiratory Infection,"Genetic, Dehydration",High-protein Diet,Yes
+664,8,3.1,Sphynx,"Weight Loss, None",Heart Condition,47,202,32,37.6,Indoor,81,Severe,Obesity,Poor Diet,"Wet food, Hydration",Yes
+665,7,5.9,British Shorthair,Difficulty Breathing,None,71,174,33,37.7,Outdoor,36,Moderate,Obesity,Allergies,Diabetic-friendly Diet,No
+666,15,3.7,Scottish Fold,None,Kidney Disease,60,172,40,37.7,Both,50,Moderate,Healthy,N/A,"Wet food, Hydration",No
+667,14,4.5,Maine Coon,"Lethargy, Sneezing",Heart Condition,51,156,37,39.3,Indoor,15,Low,Healthy,N/A,Diabetic-friendly Diet,No
+668,6,5.2,Sphynx,Coughing,Arthritis,45,197,23,40.0,Outdoor,84,Severe,Diabetes,Poor Diet,High-protein Diet,Yes
+669,12,6.8,Bengal,"Vomiting, Lethargy, Difficulty Breathing",Heart Condition,71,201,37,37.8,Both,32,Moderate,Healthy,N/A,Balanced Diet,No
+670,10,5.6,Scottish Fold,"Lethargy, Difficulty Breathing, Vomiting",Diabetes,45,151,34,37.9,Indoor,1,Low,Healthy,N/A,Renal Support Diet,No
+671,13,5.8,Siamese,"Coughing, Difficulty Breathing, None",Heart Condition,59,161,30,39.0,Both,60,High,Healthy,N/A,Renal Support Diet,Yes
+672,6,3.0,Ragdoll,None,None,75,144,26,37.8,Indoor,9,Low,Healthy,N/A,Renal Support Diet,No
+673,2,6.7,Bengal,"Sneezing, Vomiting",Kidney Disease,75,162,28,38.7,Indoor,7,Low,Healthy,N/A,Low-sodium Diet,No
+674,7,4.6,Sphynx,"Lethargy, Sneezing, Loss of Appetite",Heart Condition,64,214,28,38.0,Indoor,16,Low,Healthy,N/A,High-protein Diet,No
+675,1,5.4,Ragdoll,None,None,72,210,20,38.2,Indoor,90,Severe,Diabetes,Dust,Renal Support Diet,Yes
+676,14,5.8,British Shorthair,"None, Lethargy",Arthritis,70,220,33,39.7,Indoor,84,Severe,Healthy,N/A,Diabetic-friendly Diet,Yes
+677,3,2.9,Maine Coon,"None, Lethargy, Weight Loss",Diabetes,56,157,20,38.1,Both,51,High,Respiratory Infection,"Genetic, Dehydration","Wet food, Hydration",Yes
+678,11,5.1,Maine Coon,"Difficulty Breathing, Loss of Appetite, Weight Loss",Arthritis,65,197,34,39.3,Indoor,1,Low,Healthy,N/A,Balanced Diet,No
+679,6,6.1,Sphynx,None,Kidney Disease,75,199,21,39.7,Both,45,Moderate,Obesity,Poor Diet,Diabetic-friendly Diet,No
+680,1,4.6,Sphynx,Vomiting,Diabetes,57,173,20,39.0,Outdoor,66,High,Heart Disease,"Age-related, Poor Diet",High-protein Diet,Yes
+681,11,3.1,Bengal,"Loss of Appetite, None, Vomiting",Diabetes,53,204,23,38.4,Indoor,8,Low,Healthy,N/A,High-protein Diet,No
+682,1,5.1,Persian,Lethargy,Kidney Disease,55,160,27,38.6,Both,5,Low,Healthy,N/A,Diabetic-friendly Diet,No
+683,5,3.7,Persian,None,Arthritis,68,180,22,37.9,Indoor,32,Moderate,Obesity,N/A,Balanced Diet,No
+684,12,4.5,Bengal,None,Obesity,49,161,35,38.6,Outdoor,83,Severe,Respiratory Infection,"Dehydration, Allergies",High-protein Diet,Yes
+685,7,3.8,Ragdoll,"Difficulty Breathing, None",Diabetes,54,181,34,39.4,Outdoor,52,High,Respiratory Infection,"N/A, Dehydration",Renal Support Diet,Yes
+686,14,3.9,British Shorthair,None,None,46,166,27,38.9,Outdoor,24,Moderate,Kidney Failure,Genetic,High-protein Diet,No
+687,14,3.1,Bengal,"None, Coughing, Weight Loss",Obesity,52,140,35,39.0,Both,28,Moderate,Diabetes,"N/A, Poor Diet","Wet food, Hydration",No
+688,8,6.8,Ragdoll,Loss of Appetite,Arthritis,53,146,27,37.7,Outdoor,34,Moderate,Obesity,"Stress, Genetic",High-protein Diet,No
+689,9,6.2,Maine Coon,None,Kidney Disease,62,150,37,38.4,Outdoor,83,Severe,Heart Disease,"Poor Diet, Genetic",Renal Support Diet,Yes
+690,9,4.4,Sphynx,Difficulty Breathing,Kidney Disease,57,168,25,39.7,Indoor,60,High,Gastrointestinal Issue,Genetic,Low-sodium Diet,Yes
+691,3,6.0,Sphynx,None,Heart Condition,48,141,35,38.4,Outdoor,65,High,Diabetes,N/A,Diabetic-friendly Diet,Yes
+692,13,5.6,British Shorthair,Difficulty Breathing,Heart Condition,45,161,33,37.9,Outdoor,68,High,Heart Disease,"Stress, Genetic",Renal Support Diet,Yes
+693,9,5.9,Ragdoll,"Loss of Appetite, Weight Loss",Diabetes,61,202,25,38.0,Both,42,Moderate,Diabetes,Stress,Balanced Diet,No
+694,7,4.2,Persian,"Sneezing, Difficulty Breathing, Weight Loss",Heart Condition,50,205,25,39.5,Indoor,81,Severe,Gastrointestinal Issue,Dust,Balanced Diet,Yes
+695,14,3.0,Maine Coon,None,Heart Condition,52,207,20,38.9,Outdoor,69,High,Kidney Failure,"Age-related, Genetic",Low-sodium Diet,Yes
+696,11,3.5,Siamese,"Weight Loss, Vomiting",Obesity,61,146,20,38.1,Both,22,Moderate,Obesity,"Age-related, Genetic",Diabetic-friendly Diet,No
+697,2,7.0,Ragdoll,"Coughing, Lethargy",Arthritis,46,171,20,38.0,Indoor,40,Moderate,Respiratory Infection,"Dehydration, Poor Diet",Renal Support Diet,No
+698,9,5.0,Sphynx,None,Obesity,54,162,40,38.4,Both,69,High,Diabetes,"Genetic, Stress",Balanced Diet,Yes
+699,7,3.5,Bengal,None,Kidney Disease,62,203,28,39.2,Both,37,Moderate,Diabetes,Stress,Renal Support Diet,No
+700,15,3.1,Maine Coon,Weight Loss,None,54,185,35,39.4,Both,13,Low,Healthy,N/A,Balanced Diet,No
+701,10,6.2,British Shorthair,None,Heart Condition,59,203,33,37.7,Indoor,33,Moderate,Respiratory Infection,"Genetic, Dust",Diabetic-friendly Diet,No
+702,5,4.7,Bengal,None,None,69,141,29,37.7,Outdoor,59,High,Kidney Failure,Dust,Renal Support Diet,Yes
+703,2,3.9,Ragdoll,None,None,60,210,30,39.1,Outdoor,99,Severe,Healthy,N/A,High-protein Diet,Yes
+704,11,5.2,Bengal,"Vomiting, Sneezing",Arthritis,58,204,21,38.1,Both,40,Moderate,Heart Disease,"Stress, Dust","Wet food, Hydration",No
+705,10,6.5,British Shorthair,"None, Sneezing",None,57,179,30,39.9,Indoor,18,Low,Healthy,N/A,Renal Support Diet,No
+706,13,2.7,Ragdoll,"Weight Loss, Sneezing",Arthritis,50,173,34,37.8,Outdoor,22,Moderate,Heart Disease,"Genetic, Allergies",Renal Support Diet,No
+707,1,3.9,Ragdoll,None,Obesity,59,150,36,37.6,Outdoor,0,Low,Healthy,N/A,Balanced Diet,No
+708,5,3.8,Siamese,None,Kidney Disease,48,168,28,37.8,Outdoor,65,High,Kidney Failure,"Genetic, Dehydration",Diabetic-friendly Diet,Yes
+709,10,3.7,Persian,"Weight Loss, Difficulty Breathing, None",Obesity,70,213,27,38.7,Outdoor,48,Moderate,Gastrointestinal Issue,N/A,Balanced Diet,No
+710,14,6.0,Ragdoll,"Sneezing, None, Difficulty Breathing",Obesity,61,211,38,39.2,Indoor,2,Low,Healthy,N/A,High-protein Diet,No
+711,4,3.4,British Shorthair,"Sneezing, Vomiting",Obesity,47,196,29,38.5,Both,71,High,Obesity,"Genetic, Allergies",Diabetic-friendly Diet,Yes
+712,10,4.6,Maine Coon,"Vomiting, None, Weight Loss",Arthritis,47,156,34,38.0,Outdoor,93,Severe,Obesity,"Allergies, Dehydration",Diabetic-friendly Diet,Yes
+713,15,4.7,Scottish Fold,"Vomiting, Lethargy",Obesity,45,183,25,39.3,Outdoor,57,High,Respiratory Infection,Dehydration,"Wet food, Hydration",Yes
+714,1,6.4,Ragdoll,"Difficulty Breathing, Vomiting",Obesity,60,200,33,39.1,Indoor,99,Severe,Gastrointestinal Issue,"Stress, N/A",Diabetic-friendly Diet,Yes
+715,14,5.7,British Shorthair,"Loss of Appetite, Coughing",Heart Condition,68,160,32,38.0,Outdoor,24,Moderate,Obesity,Allergies,Balanced Diet,No
+716,4,2.8,Scottish Fold,Sneezing,None,61,217,24,37.7,Indoor,69,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+717,5,3.6,Bengal,None,Obesity,54,148,29,38.8,Indoor,82,Severe,Heart Disease,"N/A, Age-related",Balanced Diet,Yes
+718,15,6.7,Maine Coon,"Lethargy, Coughing",Diabetes,67,174,32,37.9,Outdoor,34,Moderate,Diabetes,"Age-related, Dust",Renal Support Diet,No
+719,14,5.9,Sphynx,"Weight Loss, Sneezing, Difficulty Breathing",Heart Condition,49,213,35,38.8,Both,40,Moderate,Healthy,N/A,Balanced Diet,No
+720,5,4.9,Sphynx,Sneezing,Diabetes,75,176,32,39.6,Both,69,High,Kidney Failure,Allergies,High-protein Diet,Yes
+721,15,4.4,Bengal,"Loss of Appetite, None",Diabetes,71,156,38,39.6,Indoor,59,High,Gastrointestinal Issue,"N/A, Stress",Renal Support Diet,Yes
+722,2,3.1,Persian,Weight Loss,Heart Condition,61,156,36,37.8,Outdoor,7,Low,Healthy,N/A,Renal Support Diet,No
+723,12,4.3,Sphynx,"Vomiting, Sneezing",Heart Condition,55,154,20,38.2,Indoor,10,Low,Healthy,N/A,Renal Support Diet,No
+724,6,6.7,Bengal,"Loss of Appetite, Difficulty Breathing",Heart Condition,59,205,35,38.2,Indoor,7,Low,Healthy,N/A,"Wet food, Hydration",No
+725,11,2.8,Sphynx,Loss of Appetite,Arthritis,55,151,39,38.7,Outdoor,88,Severe,Heart Disease,"Stress, Dust",Balanced Diet,Yes
+726,13,3.2,Scottish Fold,Sneezing,Kidney Disease,55,144,23,38.8,Outdoor,79,High,Healthy,N/A,"Wet food, Hydration",Yes
+727,6,4.8,Siamese,Vomiting,Heart Condition,45,192,30,39.0,Both,34,Moderate,Kidney Failure,Genetic,Balanced Diet,No
+728,8,6.8,Maine Coon,None,None,47,165,24,38.4,Both,59,High,Obesity,"Stress, Genetic","Wet food, Hydration",Yes
+729,15,4.7,Bengal,"Coughing, Difficulty Breathing",None,60,199,30,38.3,Both,11,Low,Healthy,N/A,"Wet food, Hydration",No
+730,12,3.2,Maine Coon,None,Kidney Disease,51,160,38,37.9,Indoor,57,High,Respiratory Infection,Genetic,"Wet food, Hydration",Yes
+731,11,2.6,Bengal,Vomiting,Diabetes,51,140,36,38.1,Indoor,89,Severe,Obesity,Age-related,Renal Support Diet,Yes
+732,1,5.7,Persian,None,Kidney Disease,57,198,30,38.1,Both,56,High,Diabetes,"Age-related, Allergies",Low-sodium Diet,Yes
+733,13,6.0,Persian,"Vomiting, Coughing",Arthritis,72,166,38,37.7,Indoor,68,High,Healthy,N/A,"Wet food, Hydration",Yes
+734,6,4.6,Siamese,"Sneezing, Loss of Appetite, None",Diabetes,47,215,21,38.3,Indoor,12,Low,Healthy,N/A,Balanced Diet,No
+735,3,3.1,Sphynx,"Coughing, Weight Loss",None,59,153,20,39.1,Outdoor,22,Moderate,Healthy,N/A,High-protein Diet,No
+736,3,3.8,Persian,"Sneezing, Weight Loss",None,74,176,32,39.8,Outdoor,60,High,Heart Disease,Dust,Balanced Diet,Yes
+737,14,3.0,Ragdoll,None,Heart Condition,51,194,29,39.7,Outdoor,81,Severe,Gastrointestinal Issue,Age-related,Balanced Diet,Yes
+738,9,6.1,Bengal,Lethargy,None,75,218,39,38.5,Outdoor,99,Severe,Heart Disease,Dehydration,Low-sodium Diet,Yes
+739,10,6.7,Siamese,"Weight Loss, Difficulty Breathing, Sneezing",Arthritis,67,154,36,38.6,Both,26,Moderate,Gastrointestinal Issue,"N/A, Stress",Diabetic-friendly Diet,No
+740,6,3.8,Ragdoll,"Lethargy, Loss of Appetite, Vomiting",Diabetes,56,195,24,38.3,Both,67,High,Kidney Failure,"Dust, Allergies",Low-sodium Diet,Yes
+741,6,4.3,Siamese,Difficulty Breathing,Diabetes,73,196,35,37.7,Both,100,Severe,Respiratory Infection,"Dehydration, Stress","Wet food, Hydration",Yes
+742,2,2.7,Persian,"Lethargy, Sneezing",None,58,179,28,39.2,Indoor,95,Severe,Diabetes,"Dust, Poor Diet","Wet food, Hydration",Yes
+743,3,6.5,Scottish Fold,"Difficulty Breathing, None",Arthritis,56,153,36,38.8,Both,46,Moderate,Respiratory Infection,Dust,Diabetic-friendly Diet,No
+744,9,2.5,British Shorthair,"Weight Loss, Vomiting, Sneezing",Diabetes,70,217,35,40.0,Indoor,86,Severe,Heart Disease,"Genetic, N/A","Wet food, Hydration",Yes
+745,4,3.0,Scottish Fold,"Weight Loss, None, Lethargy",Kidney Disease,53,200,26,38.6,Indoor,60,High,Healthy,N/A,Low-sodium Diet,Yes
+746,13,3.3,Sphynx,None,Obesity,73,205,34,38.2,Both,75,High,Obesity,Poor Diet,Diabetic-friendly Diet,Yes
+747,10,5.3,Maine Coon,None,Obesity,48,145,35,37.5,Outdoor,84,Severe,Gastrointestinal Issue,"N/A, Allergies",Balanced Diet,Yes
+748,3,4.2,Bengal,"Sneezing, None, Lethargy",Arthritis,45,155,26,37.8,Both,73,High,Respiratory Infection,"Poor Diet, Dehydration",High-protein Diet,Yes
+749,6,6.4,Bengal,Vomiting,Heart Condition,66,219,36,38.4,Outdoor,77,High,Kidney Failure,"Dust, Allergies",Low-sodium Diet,Yes
+750,15,5.8,British Shorthair,Weight Loss,Diabetes,71,158,23,39.5,Both,35,Moderate,Obesity,"Allergies, Age-related",Low-sodium Diet,No
+751,7,3.6,Persian,"Weight Loss, Loss of Appetite, Coughing",Arthritis,53,202,38,38.3,Outdoor,29,Moderate,Diabetes,Age-related,Balanced Diet,No
+752,12,6.5,Ragdoll,"Loss of Appetite, Lethargy",Kidney Disease,73,149,24,37.9,Indoor,23,Moderate,Gastrointestinal Issue,"Age-related, N/A",Renal Support Diet,No
+753,8,6.7,Maine Coon,Weight Loss,Diabetes,55,194,32,39.1,Outdoor,39,Moderate,Kidney Failure,"Poor Diet, N/A","Wet food, Hydration",No
+754,14,5.9,Persian,Coughing,Arthritis,46,211,29,39.1,Both,1,Low,Healthy,N/A,Balanced Diet,No
+755,9,6.9,British Shorthair,None,None,57,217,38,39.8,Outdoor,75,High,Diabetes,Genetic,Low-sodium Diet,Yes
+756,7,5.1,Bengal,None,Diabetes,49,193,33,39.3,Indoor,1,Low,Healthy,N/A,Balanced Diet,No
+757,9,5.5,Ragdoll,None,Heart Condition,48,219,38,37.6,Both,26,Moderate,Healthy,N/A,"Wet food, Hydration",No
+758,15,6.0,Siamese,"Difficulty Breathing, Coughing",Heart Condition,66,169,40,38.5,Both,39,Moderate,Heart Disease,"Dehydration, Poor Diet",Balanced Diet,No
+759,13,3.0,Sphynx,"Weight Loss, Vomiting, Lethargy",Kidney Disease,59,182,32,39.7,Both,24,Moderate,Obesity,Stress,Renal Support Diet,No
+760,7,3.8,Ragdoll,Vomiting,Arthritis,54,150,36,38.6,Both,50,Moderate,Diabetes,Allergies,Diabetic-friendly Diet,No
+761,10,4.6,British Shorthair,"Lethargy, Loss of Appetite",Heart Condition,65,155,33,38.4,Both,67,High,Gastrointestinal Issue,Stress,Renal Support Diet,Yes
+762,2,5.0,Scottish Fold,"Difficulty Breathing, Sneezing, Vomiting",Diabetes,73,156,36,38.2,Indoor,66,High,Diabetes,Dehydration,High-protein Diet,Yes
+763,13,7.0,Scottish Fold,"Difficulty Breathing, Vomiting",Obesity,50,194,38,39.7,Indoor,62,High,Obesity,Dust,Low-sodium Diet,Yes
+764,8,5.1,Bengal,None,Heart Condition,52,163,23,39.6,Both,85,Severe,Kidney Failure,"Dehydration, Dust",Renal Support Diet,Yes
+765,6,3.7,Persian,"Sneezing, Weight Loss, Lethargy",None,45,202,24,39.7,Both,7,Low,Healthy,N/A,Renal Support Diet,No
+766,9,5.9,Scottish Fold,Vomiting,Kidney Disease,49,163,28,38.3,Outdoor,74,High,Gastrointestinal Issue,"N/A, Genetic",Diabetic-friendly Diet,Yes
+767,2,4.0,British Shorthair,None,Kidney Disease,58,164,38,37.5,Outdoor,56,High,Healthy,N/A,Renal Support Diet,Yes
+768,8,6.0,Siamese,"Vomiting, None, Loss of Appetite",Arthritis,58,191,34,39.8,Outdoor,80,High,Healthy,N/A,High-protein Diet,Yes
+769,3,5.3,Scottish Fold,"Coughing, Vomiting",Arthritis,55,147,20,39.4,Both,10,Low,Healthy,N/A,Diabetic-friendly Diet,No
+770,6,3.4,Scottish Fold,"Loss of Appetite, Sneezing",Kidney Disease,62,197,33,39.8,Both,36,Moderate,Gastrointestinal Issue,"Genetic, Poor Diet",Renal Support Diet,No
+771,4,3.2,Scottish Fold,"None, Coughing",Arthritis,48,168,38,37.5,Indoor,74,High,Diabetes,"Poor Diet, Dust",Diabetic-friendly Diet,Yes
+772,2,3.4,Siamese,Weight Loss,Diabetes,55,207,38,39.9,Both,27,Moderate,Diabetes,N/A,High-protein Diet,No
+773,3,5.9,Persian,Difficulty Breathing,Obesity,59,204,34,38.5,Outdoor,68,High,Heart Disease,"Age-related, Poor Diet",Renal Support Diet,Yes
+774,8,6.1,Scottish Fold,"None, Vomiting",None,60,202,39,38.7,Outdoor,52,High,Respiratory Infection,"Dehydration, Allergies",Low-sodium Diet,Yes
+775,6,5.4,Persian,Vomiting,Heart Condition,47,147,35,38.7,Outdoor,89,Severe,Respiratory Infection,"Age-related, N/A",Balanced Diet,Yes
+776,10,3.2,Scottish Fold,"Weight Loss, Loss of Appetite, Lethargy",Kidney Disease,68,182,26,39.5,Outdoor,6,Low,Healthy,N/A,Renal Support Diet,No
+777,9,5.4,Ragdoll,"Weight Loss, Lethargy",Diabetes,75,196,38,38.2,Indoor,88,Severe,Kidney Failure,Allergies,"Wet food, Hydration",Yes
+778,2,5.0,Ragdoll,"None, Sneezing",None,73,182,34,39.1,Both,11,Low,Healthy,N/A,Balanced Diet,No
+779,3,6.6,Siamese,"Difficulty Breathing, Lethargy",Arthritis,56,157,27,38.0,Outdoor,13,Low,Healthy,N/A,Low-sodium Diet,No
+780,14,4.5,Ragdoll,"Lethargy, Sneezing, Loss of Appetite",Heart Condition,51,142,20,39.0,Indoor,13,Low,Healthy,N/A,Balanced Diet,No
+781,6,3.0,Siamese,"Coughing, Vomiting, Loss of Appetite",Kidney Disease,47,186,22,39.8,Outdoor,30,Moderate,Gastrointestinal Issue,Dehydration,Balanced Diet,No
+782,10,2.8,Persian,"Loss of Appetite, Lethargy, Sneezing",Arthritis,62,193,36,39.8,Outdoor,77,High,Diabetes,Dehydration,Renal Support Diet,Yes
+783,5,4.0,Sphynx,"Lethargy, Weight Loss, Coughing",Diabetes,53,157,29,38.0,Indoor,35,Moderate,Healthy,N/A,Low-sodium Diet,No
+784,1,3.1,Siamese,"Coughing, Difficulty Breathing",Kidney Disease,75,162,20,39.7,Outdoor,62,High,Gastrointestinal Issue,Stress,High-protein Diet,Yes
+785,10,3.5,Persian,None,Diabetes,69,216,20,39.0,Indoor,96,Severe,Gastrointestinal Issue,Dehydration,Renal Support Diet,Yes
+786,2,3.4,Ragdoll,None,Kidney Disease,48,212,27,38.7,Both,50,Moderate,Diabetes,"Allergies, N/A",Diabetic-friendly Diet,No
+787,13,4.9,Persian,Lethargy,Obesity,49,177,37,39.9,Indoor,87,Severe,Obesity,Dust,"Wet food, Hydration",Yes
+788,13,6.8,British Shorthair,None,Heart Condition,65,187,23,38.8,Both,54,High,Gastrointestinal Issue,"Allergies, Dust",Low-sodium Diet,Yes
+789,4,2.8,Maine Coon,"Sneezing, None, Difficulty Breathing",Kidney Disease,72,195,31,39.4,Indoor,81,Severe,Obesity,Dust,High-protein Diet,Yes
+790,1,5.9,Scottish Fold,"Loss of Appetite, Vomiting, Weight Loss",Kidney Disease,46,166,29,38.8,Both,45,Moderate,Heart Disease,Age-related,Diabetic-friendly Diet,No
+791,11,6.0,Siamese,"Difficulty Breathing, Weight Loss",Arthritis,53,158,33,39.4,Both,91,Severe,Obesity,Stress,"Wet food, Hydration",Yes
+792,2,6.5,Sphynx,None,Heart Condition,54,210,31,38.0,Both,36,Moderate,Gastrointestinal Issue,"Dust, Stress",High-protein Diet,No
+793,12,5.8,Sphynx,"Loss of Appetite, Vomiting, Difficulty Breathing",Heart Condition,52,193,32,37.5,Both,18,Low,Healthy,N/A,"Wet food, Hydration",No
+794,7,5.7,Siamese,Vomiting,Kidney Disease,65,162,31,39.3,Both,67,High,Healthy,N/A,Renal Support Diet,Yes
+795,14,2.7,Maine Coon,None,Obesity,53,184,24,38.1,Both,43,Moderate,Obesity,"Dust, Dehydration",Diabetic-friendly Diet,No
+796,5,6.4,Scottish Fold,"Lethargy, None, Loss of Appetite",Arthritis,68,194,23,38.4,Indoor,12,Low,Healthy,N/A,Balanced Diet,No
+797,14,6.4,Persian,Lethargy,None,48,160,34,38.4,Indoor,82,Severe,Heart Disease,Dust,"Wet food, Hydration",Yes
+798,12,4.6,Persian,"Lethargy, Coughing, Difficulty Breathing",Arthritis,62,217,35,37.9,Outdoor,7,Low,Healthy,N/A,Low-sodium Diet,No
+799,2,5.4,British Shorthair,"Coughing, None",Diabetes,66,156,38,39.8,Both,61,High,Respiratory Infection,Allergies,High-protein Diet,Yes
+800,7,5.6,Siamese,None,Arthritis,47,191,32,39.4,Indoor,61,High,Kidney Failure,Age-related,Diabetic-friendly Diet,Yes
+801,1,3.7,Maine Coon,None,Arthritis,56,163,34,39.8,Outdoor,89,Severe,Diabetes,Dust,Low-sodium Diet,Yes
+802,5,5.3,Maine Coon,"Vomiting, None, Difficulty Breathing",Diabetes,52,143,38,38.4,Indoor,88,Severe,Respiratory Infection,Poor Diet,Renal Support Diet,Yes
+803,1,5.1,British Shorthair,None,Diabetes,61,176,23,37.7,Outdoor,12,Low,Healthy,N/A,Diabetic-friendly Diet,No
+804,9,5.0,Siamese,"Loss of Appetite, Lethargy",Arthritis,66,171,22,39.3,Outdoor,68,High,Diabetes,"Allergies, Dust",Balanced Diet,Yes
+805,5,5.1,Bengal,Vomiting,Heart Condition,53,178,20,39.7,Both,7,Low,Healthy,N/A,Low-sodium Diet,No
+806,11,6.3,Persian,None,Heart Condition,69,220,40,39.6,Both,60,High,Respiratory Infection,"N/A, Allergies","Wet food, Hydration",Yes
+807,11,5.7,Ragdoll,"Vomiting, Weight Loss, Coughing",Kidney Disease,68,140,32,38.0,Outdoor,17,Low,Healthy,N/A,"Wet food, Hydration",No
+808,1,2.8,Maine Coon,"Sneezing, Coughing",Diabetes,49,171,37,38.0,Indoor,19,Low,Healthy,N/A,High-protein Diet,No
+809,7,5.1,Maine Coon,"Loss of Appetite, Weight Loss",Diabetes,74,180,20,38.5,Outdoor,3,Low,Healthy,N/A,"Wet food, Hydration",No
+810,10,3.5,Scottish Fold,"Difficulty Breathing, Vomiting",Diabetes,56,210,22,38.1,Indoor,47,Moderate,Diabetes,Genetic,Diabetic-friendly Diet,No
+811,14,6.9,Persian,"Vomiting, Lethargy",Heart Condition,54,207,22,38.7,Outdoor,41,Moderate,Obesity,Poor Diet,High-protein Diet,No
+812,3,2.6,Ragdoll,"None, Sneezing",Heart Condition,54,177,38,39.3,Outdoor,9,Low,Healthy,N/A,Renal Support Diet,No
+813,1,3.4,Scottish Fold,"Vomiting, None, Difficulty Breathing",Obesity,70,162,40,39.7,Indoor,59,High,Diabetes,N/A,High-protein Diet,Yes
+814,10,4.3,Maine Coon,None,Obesity,69,184,24,37.8,Indoor,77,High,Gastrointestinal Issue,"Age-related, Stress",Balanced Diet,Yes
+815,15,2.7,Scottish Fold,None,Obesity,53,150,27,39.2,Indoor,58,High,Gastrointestinal Issue,Allergies,Renal Support Diet,Yes
+816,3,5.0,Siamese,"Loss of Appetite, Vomiting",Diabetes,49,141,40,39.7,Indoor,49,Moderate,Heart Disease,"Dust, Stress","Wet food, Hydration",No
+817,11,3.8,Scottish Fold,None,Obesity,74,183,28,38.7,Indoor,94,Severe,Gastrointestinal Issue,Dehydration,"Wet food, Hydration",Yes
+818,7,4.6,Siamese,"Lethargy, Vomiting",Kidney Disease,55,155,27,39.2,Indoor,34,Moderate,Respiratory Infection,"Dehydration, N/A",Low-sodium Diet,No
+819,3,5.7,Persian,"Sneezing, Loss of Appetite, None",None,45,199,26,38.2,Outdoor,55,High,Obesity,Poor Diet,Balanced Diet,Yes
+820,12,5.3,Bengal,None,Obesity,65,147,20,37.7,Indoor,45,Moderate,Heart Disease,"Stress, Dust",Balanced Diet,No
+821,10,6.4,Ragdoll,None,Arthritis,48,193,37,37.7,Indoor,1,Low,Healthy,N/A,Diabetic-friendly Diet,No
+822,12,6.5,Persian,"Weight Loss, None",Kidney Disease,50,218,36,38.6,Outdoor,56,High,Obesity,Poor Diet,Renal Support Diet,Yes
+823,5,4.5,British Shorthair,"Difficulty Breathing, Coughing",Heart Condition,46,154,28,40.0,Outdoor,11,Low,Healthy,N/A,Balanced Diet,No
+824,4,6.4,Maine Coon,"Weight Loss, Loss of Appetite, Vomiting",Kidney Disease,72,169,26,40.0,Indoor,4,Low,Healthy,N/A,Renal Support Diet,No
+825,2,3.0,Scottish Fold,Loss of Appetite,None,62,170,37,37.7,Outdoor,38,Moderate,Heart Disease,Poor Diet,Low-sodium Diet,No
+826,9,4.6,Bengal,None,Obesity,55,140,29,39.4,Outdoor,77,High,Diabetes,Stress,Low-sodium Diet,Yes
+827,4,3.0,Ragdoll,"None, Sneezing",Diabetes,74,191,30,37.9,Both,42,Moderate,Gastrointestinal Issue,"Allergies, Stress",Diabetic-friendly Diet,No
+828,10,4.4,Ragdoll,Lethargy,Obesity,73,166,37,38.3,Both,38,Moderate,Healthy,N/A,Renal Support Diet,No
+829,13,3.0,Scottish Fold,None,None,55,186,29,38.9,Outdoor,51,High,Heart Disease,Stress,"Wet food, Hydration",Yes
+830,3,4.9,Sphynx,"Lethargy, Vomiting, Weight Loss",Kidney Disease,75,190,23,39.1,Outdoor,12,Low,Healthy,N/A,Balanced Diet,No
+831,2,3.7,Bengal,None,Arthritis,63,195,37,38.9,Outdoor,39,Moderate,Respiratory Infection,"Stress, Dehydration",Low-sodium Diet,No
+832,6,5.7,Ragdoll,None,Arthritis,58,197,25,39.5,Outdoor,3,Low,Healthy,N/A,"Wet food, Hydration",No
+833,15,2.7,British Shorthair,Weight Loss,Arthritis,74,191,36,39.9,Outdoor,64,High,Kidney Failure,"N/A, Allergies",High-protein Diet,Yes
+834,3,3.4,Bengal,None,None,58,181,38,39.9,Indoor,62,High,Obesity,"Poor Diet, Dust",Balanced Diet,Yes
+835,12,5.9,Ragdoll,None,None,51,189,40,38.2,Indoor,63,High,Diabetes,Age-related,Diabetic-friendly Diet,Yes
+836,1,5.2,Maine Coon,"None, Difficulty Breathing",None,50,168,25,38.4,Both,45,Moderate,Kidney Failure,Dust,High-protein Diet,No
+837,8,2.8,Bengal,"Lethargy, Difficulty Breathing, Sneezing",Arthritis,55,151,21,37.9,Outdoor,42,Moderate,Healthy,N/A,"Wet food, Hydration",No
+838,10,2.6,Scottish Fold,None,Obesity,70,172,37,39.4,Both,90,Severe,Kidney Failure,"Age-related, Allergies",Balanced Diet,Yes
+839,15,3.0,Scottish Fold,"Coughing, Sneezing, None",Obesity,50,162,33,38.4,Both,86,Severe,Obesity,Dust,Diabetic-friendly Diet,Yes
+840,2,3.5,Sphynx,Loss of Appetite,Kidney Disease,50,155,28,38.2,Outdoor,98,Severe,Obesity,Age-related,High-protein Diet,Yes
+841,11,3.9,Siamese,"Sneezing, Loss of Appetite",None,57,217,40,38.1,Indoor,57,High,Gastrointestinal Issue,Poor Diet,Low-sodium Diet,Yes
+842,5,4.3,Maine Coon,"Lethargy, None",Obesity,54,189,20,39.4,Outdoor,100,Severe,Heart Disease,Allergies,Diabetic-friendly Diet,Yes
+843,6,4.2,Maine Coon,None,None,72,193,27,38.8,Both,23,Moderate,Respiratory Infection,Genetic,Renal Support Diet,No
+844,7,5.0,Scottish Fold,"Lethargy, Vomiting, Coughing",Arthritis,68,150,24,37.7,Outdoor,41,Moderate,Healthy,N/A,Low-sodium Diet,No
+845,15,6.9,Maine Coon,"None, Lethargy",Diabetes,61,197,22,39.5,Indoor,92,Severe,Diabetes,"Dust, Dehydration",Balanced Diet,Yes
+846,6,6.9,Scottish Fold,"Coughing, Sneezing, Loss of Appetite",Arthritis,46,192,22,38.7,Both,87,Severe,Kidney Failure,"Dehydration, Genetic",Low-sodium Diet,Yes
+847,15,2.7,Siamese,None,Arthritis,48,176,32,38.0,Outdoor,41,Moderate,Heart Disease,Genetic,Balanced Diet,No
+848,7,3.4,Sphynx,None,Arthritis,66,183,29,39.7,Outdoor,58,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+849,5,2.8,Scottish Fold,"Weight Loss, Vomiting, Lethargy",Heart Condition,55,202,39,39.8,Outdoor,21,Moderate,Healthy,N/A,"Wet food, Hydration",No
+850,14,6.8,Maine Coon,None,Arthritis,57,219,33,37.6,Both,80,High,Diabetes,Stress,Diabetic-friendly Diet,Yes
+851,5,6.8,Ragdoll,"Difficulty Breathing, None, Coughing",Heart Condition,67,217,30,38.8,Outdoor,2,Low,Healthy,N/A,Balanced Diet,No
+852,2,3.1,Siamese,"Coughing, Loss of Appetite, Vomiting",Kidney Disease,68,140,22,39.1,Outdoor,19,Low,Healthy,N/A,"Wet food, Hydration",No
+853,5,4.4,Maine Coon,"Vomiting, Weight Loss",Arthritis,51,157,37,39.6,Both,48,Moderate,Diabetes,"Poor Diet, Allergies",High-protein Diet,No
+854,8,6.3,Sphynx,None,Heart Condition,54,165,33,39.9,Outdoor,53,High,Kidney Failure,"Dehydration, Stress",Diabetic-friendly Diet,Yes
+855,7,4.2,Persian,"Vomiting, Loss of Appetite, Difficulty Breathing",Obesity,75,162,40,39.2,Both,30,Moderate,Respiratory Infection,"Poor Diet, Dehydration",Renal Support Diet,No
+856,12,2.7,Sphynx,None,Diabetes,62,211,36,39.6,Outdoor,75,High,Respiratory Infection,"Dust, Poor Diet",Low-sodium Diet,Yes
+857,5,5.2,Scottish Fold,None,Heart Condition,63,141,40,39.4,Outdoor,93,Severe,Gastrointestinal Issue,Age-related,Renal Support Diet,Yes
+858,14,4.1,Persian,None,Obesity,54,142,27,37.5,Both,44,Moderate,Healthy,N/A,High-protein Diet,No
+859,11,3.4,Persian,Coughing,Obesity,51,182,30,38.5,Indoor,48,Moderate,Respiratory Infection,Age-related,"Wet food, Hydration",No
+860,14,5.0,Bengal,Loss of Appetite,Heart Condition,75,176,29,39.9,Both,81,Severe,Kidney Failure,Dust,Diabetic-friendly Diet,Yes
+861,10,5.7,Sphynx,"Loss of Appetite, Weight Loss",Diabetes,73,149,28,39.8,Indoor,82,Severe,Obesity,"Dust, Genetic",High-protein Diet,Yes
+862,6,7.0,Scottish Fold,"None, Sneezing, Loss of Appetite",Kidney Disease,68,146,32,39.7,Both,36,Moderate,Obesity,"Allergies, N/A",Low-sodium Diet,No
+863,6,4.1,Scottish Fold,"Loss of Appetite, Weight Loss, Difficulty Breathing",Obesity,55,142,22,39.3,Outdoor,61,High,Gastrointestinal Issue,Genetic,High-protein Diet,Yes
+864,1,6.5,Siamese,"Vomiting, Coughing, None",Heart Condition,64,157,20,38.8,Both,23,Moderate,Obesity,"Poor Diet, Allergies",High-protein Diet,No
+865,15,6.4,Sphynx,Sneezing,Diabetes,62,219,35,38.7,Outdoor,84,Severe,Kidney Failure,"N/A, Stress",High-protein Diet,Yes
+866,13,6.7,Persian,None,None,56,175,27,38.7,Both,26,Moderate,Kidney Failure,"N/A, Dust",Renal Support Diet,No
+867,7,4.1,British Shorthair,None,Heart Condition,72,188,39,37.8,Both,15,Low,Healthy,N/A,Renal Support Diet,No
+868,15,2.6,Siamese,None,Kidney Disease,72,179,27,38.9,Both,28,Moderate,Kidney Failure,Genetic,Renal Support Diet,No
+869,3,3.3,Ragdoll,"Weight Loss, Sneezing",Kidney Disease,68,171,25,38.5,Both,17,Low,Healthy,N/A,Renal Support Diet,No
+870,7,5.1,British Shorthair,None,Heart Condition,46,189,26,39.8,Outdoor,55,High,Heart Disease,"Genetic, Dehydration",Diabetic-friendly Diet,Yes
+871,10,2.8,Persian,"Sneezing, Loss of Appetite, Difficulty Breathing",Diabetes,53,197,29,38.5,Outdoor,90,Severe,Gastrointestinal Issue,"Dust, Allergies",High-protein Diet,Yes
+872,11,2.8,Siamese,None,Heart Condition,61,218,23,37.8,Both,37,Moderate,Healthy,N/A,High-protein Diet,No
+873,1,3.7,Scottish Fold,Difficulty Breathing,Arthritis,69,180,25,40.0,Indoor,23,Moderate,Healthy,N/A,Low-sodium Diet,No
+874,6,6.3,Maine Coon,"Vomiting, None",Kidney Disease,46,205,30,39.1,Outdoor,86,Severe,Obesity,"N/A, Age-related",Low-sodium Diet,Yes
+875,14,6.9,Maine Coon,"None, Vomiting, Lethargy",Heart Condition,64,172,26,39.2,Outdoor,66,High,Respiratory Infection,Age-related,Diabetic-friendly Diet,Yes
+876,14,3.7,Maine Coon,Weight Loss,Diabetes,68,147,23,38.8,Both,75,High,Diabetes,Allergies,Balanced Diet,Yes
+877,1,4.4,British Shorthair,Coughing,Obesity,47,165,29,39.4,Indoor,65,High,Heart Disease,"Dust, Allergies",Diabetic-friendly Diet,Yes
+878,10,6.2,Persian,Sneezing,None,55,146,30,38.6,Outdoor,94,Severe,Respiratory Infection,"Poor Diet, Dehydration",Low-sodium Diet,Yes
+879,6,5.2,Sphynx,Sneezing,Heart Condition,50,159,36,37.7,Indoor,11,Low,Healthy,N/A,Low-sodium Diet,No
+880,4,5.2,Persian,Weight Loss,Diabetes,46,169,29,38.0,Outdoor,26,Moderate,Heart Disease,"N/A, Stress",Diabetic-friendly Diet,No
+881,2,6.2,Maine Coon,Loss of Appetite,Arthritis,63,206,30,39.6,Outdoor,44,Moderate,Healthy,N/A,High-protein Diet,No
+882,15,5.7,Persian,"Weight Loss, Difficulty Breathing, Sneezing",Arthritis,54,218,35,39.8,Outdoor,72,High,Gastrointestinal Issue,N/A,Balanced Diet,Yes
+883,13,4.6,Persian,Loss of Appetite,Diabetes,45,188,23,39.2,Indoor,20,Low,Healthy,N/A,Diabetic-friendly Diet,No
+884,8,2.7,Bengal,None,Kidney Disease,63,148,35,39.8,Both,56,High,Gastrointestinal Issue,"Genetic, Dehydration",High-protein Diet,Yes
+885,5,3.9,Ragdoll,None,Kidney Disease,45,145,25,39.7,Both,14,Low,Healthy,N/A,"Wet food, Hydration",No
+886,12,7.0,Siamese,Lethargy,None,51,146,31,39.8,Both,17,Low,Healthy,N/A,Low-sodium Diet,No
+887,11,2.8,Siamese,None,Heart Condition,68,143,21,39.0,Outdoor,64,High,Heart Disease,N/A,Renal Support Diet,Yes
+888,12,3.1,Scottish Fold,None,Heart Condition,72,179,36,39.6,Both,88,Severe,Kidney Failure,"Genetic, Dust",Diabetic-friendly Diet,Yes
+889,8,4.7,Siamese,None,Arthritis,65,188,24,39.1,Indoor,9,Low,Healthy,N/A,High-protein Diet,No
+890,15,5.8,British Shorthair,"Lethargy, None",Heart Condition,63,212,36,38.4,Indoor,59,High,Diabetes,"Allergies, Age-related","Wet food, Hydration",Yes
+891,8,5.9,Sphynx,"Lethargy, Loss of Appetite, Difficulty Breathing",Kidney Disease,74,171,37,38.0,Outdoor,37,Moderate,Respiratory Infection,N/A,Balanced Diet,No
+892,2,3.6,British Shorthair,None,Heart Condition,49,183,24,38.6,Outdoor,100,Severe,Obesity,"Stress, Dehydration","Wet food, Hydration",Yes
+893,15,5.8,Scottish Fold,None,Kidney Disease,66,142,38,38.9,Both,55,High,Diabetes,Age-related,Renal Support Diet,Yes
+894,11,2.7,British Shorthair,"Vomiting, Weight Loss",Kidney Disease,45,145,26,39.3,Both,76,High,Healthy,N/A,"Wet food, Hydration",Yes
+895,14,5.4,Persian,None,Obesity,63,176,23,38.0,Both,36,Moderate,Diabetes,N/A,Low-sodium Diet,No
+896,4,5.5,British Shorthair,None,Diabetes,62,180,31,38.4,Outdoor,75,High,Healthy,N/A,"Wet food, Hydration",Yes
+897,15,4.1,Scottish Fold,Loss of Appetite,Diabetes,67,194,33,39.5,Outdoor,99,Severe,Diabetes,Dust,Diabetic-friendly Diet,Yes
+898,3,2.6,Sphynx,"Lethargy, None, Weight Loss",Obesity,56,179,23,38.2,Both,74,High,Gastrointestinal Issue,Dust,Balanced Diet,Yes
+899,5,2.6,Sphynx,"None, Vomiting, Loss of Appetite",Kidney Disease,45,217,20,38.2,Both,54,High,Respiratory Infection,Genetic,High-protein Diet,Yes
+900,9,6.3,Ragdoll,"Coughing, Vomiting, Weight Loss",Heart Condition,75,162,33,37.5,Indoor,35,Moderate,Diabetes,"Stress, Poor Diet",Balanced Diet,No
+901,14,4.5,Maine Coon,Difficulty Breathing,None,53,181,27,39.6,Both,21,Moderate,Gastrointestinal Issue,Dust,High-protein Diet,No
+902,11,6.4,Ragdoll,"Vomiting, Lethargy",Diabetes,45,162,26,39.5,Outdoor,66,High,Obesity,Age-related,Balanced Diet,Yes
+903,5,5.6,British Shorthair,"Weight Loss, Difficulty Breathing",Diabetes,75,142,39,38.0,Both,38,Moderate,Heart Disease,"Allergies, Age-related",High-protein Diet,No
+904,10,4.4,Siamese,None,Obesity,70,141,37,39.4,Indoor,38,Moderate,Kidney Failure,"Genetic, Allergies",Balanced Diet,No
+905,4,4.0,Scottish Fold,"Loss of Appetite, Lethargy, None",None,74,218,33,38.6,Indoor,98,Severe,Healthy,N/A,Balanced Diet,Yes
+906,8,2.6,Maine Coon,"Loss of Appetite, Sneezing, Lethargy",Arthritis,57,193,36,39.4,Indoor,88,Severe,Obesity,"Age-related, Poor Diet","Wet food, Hydration",Yes
+907,6,4.6,Sphynx,"Lethargy, None, Weight Loss",None,57,191,34,39.8,Indoor,85,Severe,Obesity,"Dehydration, Allergies",High-protein Diet,Yes
+908,6,4.4,Bengal,"None, Difficulty Breathing",Arthritis,60,155,27,38.1,Both,95,Severe,Respiratory Infection,Stress,Balanced Diet,Yes
+909,7,4.6,Maine Coon,Weight Loss,Kidney Disease,71,210,37,38.8,Outdoor,29,Moderate,Diabetes,"N/A, Dehydration",High-protein Diet,No
+910,4,6.9,Persian,"Vomiting, Lethargy",Kidney Disease,66,189,24,38.9,Outdoor,75,High,Obesity,Allergies,Balanced Diet,Yes
+911,3,6.3,Sphynx,None,Diabetes,58,187,40,39.0,Indoor,98,Severe,Obesity,"Dust, Age-related",Balanced Diet,Yes
+912,10,2.7,Ragdoll,"Vomiting, Lethargy, None",Diabetes,75,165,40,38.7,Both,60,High,Respiratory Infection,"Dust, Dehydration",Diabetic-friendly Diet,Yes
+913,2,5.8,British Shorthair,"Loss of Appetite, Sneezing, Vomiting",None,48,191,32,38.8,Outdoor,99,Severe,Healthy,N/A,Diabetic-friendly Diet,Yes
+914,13,4.1,Maine Coon,None,Arthritis,67,143,29,39.2,Outdoor,88,Severe,Kidney Failure,"Genetic, Stress",Renal Support Diet,Yes
+915,12,4.7,Persian,"None, Lethargy",Diabetes,74,181,21,39.7,Outdoor,10,Low,Healthy,N/A,High-protein Diet,No
+916,12,5.6,British Shorthair,"None, Vomiting, Lethargy",None,65,204,36,38.1,Both,13,Low,Healthy,N/A,Balanced Diet,No
+917,3,5.5,Maine Coon,Vomiting,Heart Condition,45,173,26,37.9,Indoor,10,Low,Healthy,N/A,Diabetic-friendly Diet,No
+918,6,5.8,Persian,None,Diabetes,47,140,35,37.8,Both,5,Low,Healthy,N/A,"Wet food, Hydration",No
+919,4,4.1,Siamese,Difficulty Breathing,None,52,201,20,38.1,Indoor,91,Severe,Heart Disease,Dehydration,Low-sodium Diet,Yes
+920,13,3.1,Ragdoll,Weight Loss,Arthritis,68,146,34,39.8,Outdoor,58,High,Obesity,Dehydration,"Wet food, Hydration",Yes
+921,3,4.9,Persian,"Coughing, Vomiting",Arthritis,72,170,33,39.6,Indoor,99,Severe,Obesity,Allergies,High-protein Diet,Yes
+922,5,4.5,Scottish Fold,None,Diabetes,67,141,21,37.6,Both,35,Moderate,Heart Disease,Age-related,Renal Support Diet,No
+923,13,6.8,Bengal,None,Kidney Disease,46,203,26,39.3,Outdoor,64,High,Healthy,N/A,High-protein Diet,Yes
+924,3,4.7,Ragdoll,"Difficulty Breathing, Vomiting",Arthritis,45,207,29,39.6,Outdoor,39,Moderate,Kidney Failure,Poor Diet,High-protein Diet,No
+925,12,6.0,Persian,"None, Sneezing",Heart Condition,56,150,36,38.0,Indoor,90,Severe,Respiratory Infection,"Allergies, Dehydration",Balanced Diet,Yes
+926,13,5.8,Maine Coon,"Difficulty Breathing, Weight Loss, None",Heart Condition,63,204,36,39.4,Indoor,51,High,Heart Disease,"Allergies, Dust",High-protein Diet,Yes
+927,5,4.1,Scottish Fold,Lethargy,Heart Condition,69,148,29,38.4,Indoor,86,Severe,Obesity,N/A,Balanced Diet,Yes
+928,14,4.1,Ragdoll,"Weight Loss, Lethargy, Vomiting",None,67,158,36,39.2,Outdoor,89,Severe,Kidney Failure,"Genetic, Age-related",Renal Support Diet,Yes
+929,7,2.6,Siamese,"Lethargy, None",None,61,210,27,38.4,Indoor,8,Low,Healthy,N/A,Low-sodium Diet,No
+930,11,6.5,Ragdoll,"Vomiting, Loss of Appetite, Sneezing",Diabetes,53,211,24,38.1,Outdoor,87,Severe,Gastrointestinal Issue,"Stress, Genetic",Low-sodium Diet,Yes
+931,6,6.4,Persian,Sneezing,Obesity,73,197,27,39.8,Outdoor,96,Severe,Heart Disease,"Stress, Poor Diet",Renal Support Diet,Yes
+932,12,3.4,British Shorthair,"Vomiting, Coughing",Obesity,62,208,26,39.3,Indoor,63,High,Diabetes,Dehydration,Low-sodium Diet,Yes
+933,8,6.0,Scottish Fold,"Difficulty Breathing, Loss of Appetite, Lethargy",Heart Condition,46,200,29,38.8,Outdoor,68,High,Kidney Failure,"Age-related, Stress","Wet food, Hydration",Yes
+934,1,3.7,Ragdoll,"None, Coughing",Heart Condition,52,170,28,37.6,Indoor,20,Low,Healthy,N/A,Balanced Diet,No
+935,5,5.9,Maine Coon,None,None,62,188,40,37.7,Both,79,High,Obesity,"Allergies, Dehydration",Diabetic-friendly Diet,Yes
+936,8,3.4,Ragdoll,None,Obesity,66,172,31,38.0,Both,19,Low,Healthy,N/A,High-protein Diet,No
+937,4,2.9,British Shorthair,Loss of Appetite,Diabetes,63,206,26,38.1,Outdoor,70,High,Respiratory Infection,"Stress, Dehydration",High-protein Diet,Yes
+938,12,4.9,Ragdoll,Coughing,Obesity,66,172,27,39.6,Indoor,61,High,Respiratory Infection,Poor Diet,High-protein Diet,Yes
+939,4,4.5,Sphynx,Difficulty Breathing,Diabetes,64,165,37,38.1,Outdoor,34,Moderate,Gastrointestinal Issue,"Genetic, Age-related",Renal Support Diet,No
+940,14,6.2,Ragdoll,Vomiting,Diabetes,73,184,23,37.7,Both,48,Moderate,Respiratory Infection,Poor Diet,High-protein Diet,No
+941,6,5.1,Persian,None,Heart Condition,63,180,30,37.6,Indoor,84,Severe,Obesity,Stress,"Wet food, Hydration",Yes
+942,3,3.6,Persian,None,None,66,181,22,37.9,Outdoor,100,Severe,Obesity,"Allergies, Poor Diet",Diabetic-friendly Diet,Yes
+943,1,6.5,British Shorthair,None,Heart Condition,65,162,25,37.9,Outdoor,84,Severe,Gastrointestinal Issue,Genetic,Diabetic-friendly Diet,Yes
+944,6,6.9,Sphynx,None,None,53,187,20,38.0,Both,79,High,Healthy,N/A,Diabetic-friendly Diet,Yes
+945,13,4.5,Persian,None,Kidney Disease,55,190,38,39.2,Indoor,42,Moderate,Heart Disease,Dust,Diabetic-friendly Diet,No
+946,12,5.0,Ragdoll,None,Kidney Disease,65,174,35,38.4,Indoor,6,Low,Healthy,N/A,Renal Support Diet,No
+947,12,5.3,Ragdoll,Difficulty Breathing,Obesity,61,203,32,39.0,Indoor,37,Moderate,Diabetes,Allergies,Renal Support Diet,No
+948,5,6.8,Persian,"Lethargy, Coughing, Loss of Appetite",Kidney Disease,68,218,24,39.9,Both,5,Low,Healthy,N/A,Renal Support Diet,No
+949,14,5.7,Scottish Fold,Vomiting,Diabetes,49,194,38,38.5,Indoor,40,Moderate,Kidney Failure,Poor Diet,"Wet food, Hydration",No
+950,1,4.8,Maine Coon,"Difficulty Breathing, Lethargy",Heart Condition,70,141,35,39.8,Both,52,High,Kidney Failure,Dust,Low-sodium Diet,Yes
+951,1,3.0,Scottish Fold,Coughing,Obesity,45,141,29,38.3,Both,87,Severe,Respiratory Infection,"Dust, Allergies",Renal Support Diet,Yes
+952,13,5.8,Ragdoll,"None, Difficulty Breathing",None,52,206,31,39.6,Indoor,35,Moderate,Respiratory Infection,Genetic,Low-sodium Diet,No
+953,12,5.8,British Shorthair,None,Kidney Disease,54,188,28,39.1,Both,6,Low,Healthy,N/A,Diabetic-friendly Diet,No
+954,3,6.5,Sphynx,"Sneezing, Loss of Appetite",Kidney Disease,72,199,20,37.7,Both,39,Moderate,Heart Disease,"Allergies, Age-related",Low-sodium Diet,No
+955,1,6.8,Persian,"Weight Loss, Vomiting",Obesity,55,185,20,39.4,Indoor,22,Moderate,Respiratory Infection,"N/A, Stress","Wet food, Hydration",No
+956,12,3.0,Sphynx,"Coughing, Vomiting, Difficulty Breathing",Arthritis,46,166,40,39.1,Outdoor,29,Moderate,Diabetes,Genetic,Renal Support Diet,No
+957,14,2.9,Siamese,"Sneezing, Coughing",Obesity,62,207,25,38.2,Both,56,High,Kidney Failure,Genetic,Diabetic-friendly Diet,Yes
+958,11,4.0,Maine Coon,None,Obesity,73,199,39,39.2,Indoor,37,Moderate,Heart Disease,Poor Diet,"Wet food, Hydration",No
+959,1,6.3,British Shorthair,"None, Difficulty Breathing",Obesity,71,205,32,37.8,Outdoor,65,High,Respiratory Infection,Dust,Low-sodium Diet,Yes
+960,7,6.0,Persian,None,Heart Condition,64,163,36,39.0,Outdoor,60,High,Respiratory Infection,Genetic,Low-sodium Diet,Yes
+961,12,3.4,Bengal,None,Obesity,70,216,22,39.7,Indoor,13,Low,Healthy,N/A,Balanced Diet,No
+962,1,5.8,Sphynx,"None, Weight Loss, Sneezing",Arthritis,59,213,33,39.9,Indoor,91,Severe,Kidney Failure,"Allergies, Age-related",Low-sodium Diet,Yes
+963,6,2.8,British Shorthair,"Sneezing, Loss of Appetite",Diabetes,46,182,38,39.8,Outdoor,31,Moderate,Gastrointestinal Issue,"Dehydration, N/A",High-protein Diet,No
+964,3,4.0,Sphynx,None,Arthritis,47,200,39,39.2,Outdoor,76,High,Kidney Failure,"Age-related, Genetic",High-protein Diet,Yes
+965,5,5.9,Ragdoll,Coughing,Diabetes,62,160,35,38.1,Outdoor,97,Severe,Healthy,N/A,Diabetic-friendly Diet,Yes
+966,4,6.4,Ragdoll,"None, Coughing",Obesity,55,174,20,38.0,Outdoor,92,Severe,Heart Disease,N/A,Diabetic-friendly Diet,Yes
+967,1,3.3,British Shorthair,None,Kidney Disease,50,183,38,38.9,Indoor,90,Severe,Heart Disease,"Allergies, Genetic",Renal Support Diet,Yes
+968,2,6.2,Ragdoll,"Loss of Appetite, None, Difficulty Breathing",Heart Condition,68,185,40,38.0,Indoor,28,Moderate,Heart Disease,"Genetic, Poor Diet",High-protein Diet,No
+969,7,5.7,Persian,Coughing,None,70,171,26,39.0,Both,45,Moderate,Gastrointestinal Issue,Dust,"Wet food, Hydration",No
+970,6,4.3,British Shorthair,None,Kidney Disease,53,219,40,39.8,Both,94,Severe,Healthy,N/A,Low-sodium Diet,Yes
+971,5,5.9,Ragdoll,Vomiting,Heart Condition,61,190,21,37.8,Indoor,60,High,Respiratory Infection,Genetic,Low-sodium Diet,Yes
+972,7,3.5,Scottish Fold,"Sneezing, Weight Loss, Loss of Appetite",Obesity,54,206,26,38.0,Both,91,Severe,Obesity,Stress,"Wet food, Hydration",Yes
+973,3,3.0,Siamese,"Vomiting, Sneezing",Arthritis,58,213,38,38.4,Both,32,Moderate,Obesity,Genetic,Diabetic-friendly Diet,No
+974,2,5.0,Sphynx,None,Heart Condition,68,176,38,38.6,Both,78,High,Gastrointestinal Issue,Stress,High-protein Diet,Yes
+975,5,5.9,Ragdoll,"Loss of Appetite, Sneezing",Heart Condition,60,145,35,38.8,Outdoor,57,High,Diabetes,N/A,Balanced Diet,Yes
+976,15,4.7,Maine Coon,None,Diabetes,48,157,32,38.5,Both,98,Severe,Healthy,N/A,High-protein Diet,Yes
+977,12,2.9,Siamese,"Loss of Appetite, Difficulty Breathing, Lethargy",Diabetes,72,154,32,38.5,Indoor,88,Severe,Healthy,N/A,Diabetic-friendly Diet,Yes
+978,12,5.4,Sphynx,None,Arthritis,55,205,36,39.4,Outdoor,82,Severe,Respiratory Infection,"N/A, Genetic",Renal Support Diet,Yes
+979,3,5.3,Sphynx,Loss of Appetite,Diabetes,71,171,37,39.3,Both,72,High,Gastrointestinal Issue,"N/A, Age-related",Balanced Diet,Yes
+980,3,5.4,Ragdoll,None,Heart Condition,45,174,40,38.6,Outdoor,18,Low,Healthy,N/A,Balanced Diet,No
+981,5,5.2,Persian,"Difficulty Breathing, Lethargy, Coughing",Diabetes,71,163,22,38.5,Both,59,High,Obesity,Allergies,Diabetic-friendly Diet,Yes
+982,5,5.7,Scottish Fold,"Difficulty Breathing, Loss of Appetite",Arthritis,48,191,24,38.1,Indoor,84,Severe,Obesity,Dehydration,Renal Support Diet,Yes
+983,11,4.9,British Shorthair,"None, Weight Loss, Coughing",Heart Condition,59,167,37,38.5,Both,0,Low,Healthy,N/A,Diabetic-friendly Diet,No
+984,10,4.9,Sphynx,"Coughing, Weight Loss",Heart Condition,57,143,24,37.7,Outdoor,74,High,Respiratory Infection,"Genetic, Stress",High-protein Diet,Yes
+985,10,6.7,Ragdoll,"Vomiting, Difficulty Breathing",None,63,144,23,38.4,Both,81,Severe,Kidney Failure,"Dehydration, Poor Diet",Diabetic-friendly Diet,Yes
+986,12,5.0,Persian,"Weight Loss, Lethargy",Heart Condition,56,147,33,37.8,Outdoor,82,Severe,Obesity,"Allergies, Genetic",Renal Support Diet,Yes
+987,9,4.5,Maine Coon,"Vomiting, None",Arthritis,46,141,39,39.9,Outdoor,22,Moderate,Gastrointestinal Issue,Stress,Balanced Diet,No
+988,7,2.8,British Shorthair,"Sneezing, Weight Loss",Obesity,54,190,38,37.7,Both,51,High,Heart Disease,"Genetic, Allergies",Low-sodium Diet,Yes
+989,3,5.7,Scottish Fold,"Vomiting, Sneezing",Arthritis,61,197,33,39.5,Both,27,Moderate,Obesity,Poor Diet,"Wet food, Hydration",No
+990,14,6.8,Sphynx,"Sneezing, Lethargy",Heart Condition,72,140,38,39.9,Indoor,33,Moderate,Respiratory Infection,Dust,Balanced Diet,No
+991,10,5.6,British Shorthair,"Sneezing, Coughing",Arthritis,63,218,28,39.4,Both,16,Low,Healthy,N/A,High-protein Diet,No
+992,13,4.1,Sphynx,"Coughing, Sneezing",None,56,176,37,39.7,Both,53,High,Obesity,"Allergies, Stress",Diabetic-friendly Diet,Yes
+993,6,3.9,British Shorthair,None,None,65,190,36,39.5,Outdoor,56,High,Gastrointestinal Issue,Dust,"Wet food, Hydration",Yes
+994,2,2.7,Siamese,None,None,74,155,36,38.3,Outdoor,30,Moderate,Respiratory Infection,Poor Diet,Low-sodium Diet,No
+995,7,6.7,Bengal,Weight Loss,None,75,157,36,38.1,Both,92,Severe,Healthy,N/A,High-protein Diet,Yes
+996,2,3.8,Bengal,"Sneezing, None, Lethargy",Diabetes,56,187,38,37.6,Both,28,Moderate,Respiratory Infection,Genetic,Low-sodium Diet,No
+997,14,6.4,Bengal,"Vomiting, Coughing",Heart Condition,65,186,21,37.9,Indoor,36,Moderate,Obesity,Dehydration,High-protein Diet,No
+998,6,2.5,Maine Coon,"Difficulty Breathing, Coughing, None",Heart Condition,66,220,26,39.0,Indoor,45,Moderate,Kidney Failure,"Dust, Genetic",Balanced Diet,No
+999,4,6.7,Persian,"Weight Loss, Loss of Appetite",Arthritis,51,140,26,38.0,Outdoor,68,High,Heart Disease,Poor Diet,Diabetic-friendly Diet,Yes
+1000,8,4.6,Ragdoll,Coughing,Heart Condition,66,194,40,37.5,Both,7,Low,Healthy,N/A,Balanced Diet,No

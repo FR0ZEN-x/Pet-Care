@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">{{ current_user.username }}'s Profile</h1>
+
+    <!-- User Information -->
+    <ul class="list-group mb-4">
+        <li class="list-group-item"><strong>Username:</strong> {{ current_user.username }}</li>
+        <li class="list-group-item"><strong>Email:</strong> {{ current_user.email }}</li>
+        {% if current_user.is_vet %}
+        <li class="list-group-item"><strong>Vet Licence:</strong> {{ current_user.vet_license }}</li>
+        {% endif %}
+    </ul>
+
+    <div class="mt-4">
+        <a href="{{ url_for('edit_user_info_page') }}" class="btn" style="background-color: #007bff; color: white;">Edit</a>
+    </div>
+
+    <!-- Pets Section -->
+    <h2 class="mt-5">Pets</h2>
+    {% if current_user.pets %}
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        {% for pet in current_user.pets %}
+        {% include 'includes/pet_modals.html' %}
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">{{ pet.name }}</h5>
+                    <p class="card-text"><strong>ID:</strong> {{ pet.pet_id }}</p>
+                    <p class="card-text"><strong>Type:</strong> {{ pet.species }}</p>
+                    <p class="card-text"><strong>Gender:</strong> {{ pet.gender }}</p>
+                    <button class="btn btn-danger btn-sm"
+                            data-bs-toggle="modal"
+                            data-bs-target="#removePetModal-{{ pet.pet_id }}">Remove</button>
+
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p>{{ current_user.username }} has not added any pets yet.</p>
+    {% endif %}
+    <div class="mt-4">
+        <a href="{{ url_for('add_pet_page') }}" class="btn" style="background-color: #28a745; color: white;">Add Pet</a>
+    </div>
+
+    <!-- Logout Button -->
+    <div class="d-flex justify-content-center mt-4">
+        <a href="{{ url_for('logout_page') }}" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+
+<script>
+    // Add any necessary JavaScript here
+</script>
+{% endblock %}

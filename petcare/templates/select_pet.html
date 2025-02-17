@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .card {
+        transition: transform 0.3s, box-shadow 0.3s;
+        border: 2px solid #8F88A0;
+        border-radius: 10px;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+        color: #8F88A0;
+        font-weight: bold;
+    }
+
+    .card-text {
+        color: #555;
+    }
+
+    /* Style for search input and button */
+    .search-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    .input-group input {
+        border-radius: 30px;
+    }
+
+    .input-group button {
+        border-radius: 30px;
+    }
+
+    /* Responsive Pet Grid */
+    @media (max-width: 767px) {
+        .card-body {
+            padding: 1rem;
+        }
+    }
+</style>
+
+<!-- Search Box -->
+<div class="container my-5">
+    <div class="row justify-content-center mb-4 search-container">
+        <div class="col-md-8">
+            <div class="input-group">
+                <input type="text" class="form-control" id="searchInput" placeholder="Search pets by name or ID..." aria-label="Search for pets" aria-describedby="searchButton">
+                <button class="btn btn-primary" type="button" id="searchButton" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid Layout for Pets with responsive columns -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="petGrid">
+        {% for pet in pets %}
+            <div class="col pet-card" data-name="{{ pet.name }}" data-id="{{ pet._id }}">
+                    <a href="{{ url_for('analyze_pet_health_page', pet_id=pet.pet_id) }}" class="text-decoration-none">
+                    <div class="card text-center h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <i class="fas fa-paw fa-3x mb-3"></i>
+                            <h5 class="card-title">{{ pet.name }}</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    // Search functionality to filter by name or pet ID
+    document.getElementById('searchInput').addEventListener('input', function() {
+        var searchQuery = this.value.trim().toLowerCase();  // Get the search query
+        var pets = document.querySelectorAll('.pet-card');   // Get all pet cards
+
+        pets.forEach(function(pet) {
+            var petName = pet.getAttribute('data-name').toLowerCase();  // Pet name in lower case
+            var petId = pet.getAttribute('data-id').toString().toLowerCase();  // Pet ID in string form and lower case
+
+            // Debugging log to check values
+            console.log('Searching:', searchQuery, 'Pet Name:', petName, 'Pet ID:', petId);
+
+            // Show pet if the search query matches pet name or pet ID
+            if (petName.includes(searchQuery) || petId.includes(searchQuery)) {
+                pet.style.display = "block";  // Show card if it matches search query
+            } else {
+                pet.style.display = "none";  // Hide card if it doesn't match
+            }
+        });
+    });
+</script>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="d-flex vh-100 align-items-center justify-content-center" style="background-color: #ACA4BB;">
+    <div class="p-5 text-center" style="background-color: #ACA4BB; max-width: 800px; opacity: 0.95;">
+        <img src="{{ url_for('static', filename='PetCare.jpg') }}" alt="PetCare Logo" class="img-fluid mb-4 rounded shadow">
+        <h1 class="mb-4">Welcome to PetCare</h1>
+        <p class="lead mb-4">Enhancing Animal Health</p>
+        {% if current_user.is_authenticated %}
+            <a href="{{ url_for('main_page') }}" class="btn btn-primary btn-lg">Get Started</a>
+        {% else %}
+            <a href="{{ url_for('login_page') }}" class="btn btn-primary btn-lg">Login as PetOwner</a>
+            <a href="{{ url_for('vet_login_page') }}" class="btn btn-primary btn-lg">Login as Veterinarian</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

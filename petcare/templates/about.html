@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="container py-5 about-page">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="display-4 text-primary">Welcome to PetCare</h1>
+        <p class="lead text-muted">
+          Empowering pet owners with data-driven insights for a healthier, happier life for their pets.
+        </p>
+        <p>
+          <strong>PetCare</strong> is an innovative platform designed to enhance the health and well-being of pets by providing timely, accurate, and species-specific diagnostics. Our goal is to create a solution that ensures your pets receive the personalized care they deserve.
+        </p>
+        <h2 class="mt-4">Our Mission</h2>
+        <p>
+          At PetCare, we bridge the gap in pet health diagnostics, empowering caregivers to detect health issues early and manage them effectively. We leverage advanced technology to provide personalized recommendations tailored to your pet’s unique characteristics.
+        </p>
+        <a href="#features" class="btn btn-primary mt-3">Explore Features</a>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2 id="features" class="text-center text-primary mb-4">Key Features</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card shadow-lg mb-4">
+              <div class="card-body text-center">
+                <i class="fa fa-paw fa-3x text-primary mb-3"></i>
+                <h5 class="card-title">Species-Specific Diagnostics</h5>
+                <p class="card-text">
+                  Our platform offers health assessments based on the unique physiological and behavioral characteristics of each species.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-lg mb-4">
+              <div class="card-body text-center">
+                <i class="fa fa-heartbeat fa-3x text-danger mb-3"></i>
+                <h5 class="card-title">Early Risk Detection</h5>
+                <p class="card-text">
+                  Detect potential health risks early, using real-time data from your pet’s health metrics, symptoms, and environment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-lg mb-4">
+              <div class="card-body text-center">
+                <i class="fa fa-clipboard-list fa-3x text-success mb-3"></i>
+                <h5 class="card-title">Personalized Care Recommendations</h5>
+                <p class="card-text">
+                  Get tailored advice to improve your pet’s diet, exercise, and lifestyle based on specific health insights.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <h3 class="text-primary">Why PetCare?</h3>
+        <p class="lead">
+          We provide a comprehensive, species-specific approach to pet health management, enabling caregivers to make informed decisions and take proactive measures to improve their pets' well-being.
+        </p>
+        <a href="{{ url_for('main_page') }}" class="btn btn-success btn-lg">Get Started Today</a>
+      </div>
+    </div>
+  </div>
+{% endblock %}

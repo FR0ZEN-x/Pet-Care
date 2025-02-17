@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body class="text-center">
+<div class="container">
+  <form method="POST" class="form-login" style="color:white">
+    {{ form.hidden_tag() }} <!--This is a hidden tag that is used to prevent CSRF attacks -->
+
+    <img src="{{ url_for('static', filename='PetCare.jpg') }}" class="shadow mx-auto d-block" alt="User Image" style="width: 100px; height: 100px; border-radius: 50%; margin-top: 20px; margin-bottom: 20px;">
+    <h1 class="text-center">Add Pet</h1>
+
+    {{ form.pet_name.label(class="form-control-label") }}
+    {{ form.pet_name(class="form-control form-control-lg") }}
+
+    {{ form.pet_species.label(class="form-control-label") }}
+    {{ form.pet_species(class="form-control form-control-lg") }}
+
+    {{ form.pet_gender.label(class="form-control-label") }}
+    {{ form.pet_gender(class="form-control form-control-lg") }}
+
+    <br>
+    {{ form.submit(class="btn btn-lg btn-block btn-primary") }}
+  </form>
+</div>
+</body>
+{% endblock %}

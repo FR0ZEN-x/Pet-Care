@@ -1,0 +1,20 @@
+<!-- Bootstrap Modal for Pet Removal -->
+<div class="modal fade" id="removePetModal-{{ pet.pet_id }}" tabindex="-1" aria-labelledby="removePetModalLabel-{{ pet.pet_id }}" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="removePetModalLabel-{{ pet.pet_id }}">Confirm Pet Removal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to remove <strong>{{ pet.name }}</strong> from your pets list?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <form action="{{ url_for('remove_pet_page', pet_id=pet.pet_id) }}" method="post">
+                    <button type="submit" class="btn btn-danger">Remove</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
